@@ -1,0 +1,15 @@
+{"time":"2025-05-14T01:01:17.731265052-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250514_010117-hpr82s4v/logs/debug-core.log"}
+{"time":"2025-05-14T01:01:17.995907868-03:00","level":"INFO","msg":"created new stream","id":"hpr82s4v"}
+{"time":"2025-05-14T01:01:17.995931379-03:00","level":"INFO","msg":"stream: started","id":"hpr82s4v"}
+{"time":"2025-05-14T01:01:17.995940846-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"hpr82s4v"}
+{"time":"2025-05-14T01:01:17.996023598-03:00","level":"INFO","msg":"handler: started","stream_id":"hpr82s4v"}
+{"time":"2025-05-14T01:01:17.996039726-03:00","level":"INFO","msg":"sender: started","stream_id":"hpr82s4v"}
+{"time":"2025-05-14T01:01:18.281720923-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T01:01:19.622232314-03:00","level":"INFO","msg":"stream: closing","id":"hpr82s4v"}
+{"time":"2025-05-14T01:01:19.622257816-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T01:01:19.622284541-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T01:01:20.602721035-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T01:01:20.975510534-03:00","level":"INFO","msg":"handler: closed","stream_id":"hpr82s4v"}
+{"time":"2025-05-14T01:01:20.975541025-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hpr82s4v"}
+{"time":"2025-05-14T01:01:20.975545492-03:00","level":"INFO","msg":"sender: closed","stream_id":"hpr82s4v"}
+{"time":"2025-05-14T01:01:20.975581263-03:00","level":"INFO","msg":"stream: closed","id":"hpr82s4v"}

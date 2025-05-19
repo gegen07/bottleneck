@@ -1,0 +1,64 @@
+ 20%|████████████████▏                                                                | 2/10 [01:07<04:28, 33.61s/it]
+Data(x=[22662, 300], edge_index=[2, 32927], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 0 | Epochs: 396 | Best epoch: 296
+Test acc: 0.8848
+Best val acc: 0.8870
+Data(x=[22662, 300], edge_index=[2, 32927], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 1 | Epochs: 441 | Best epoch: 341
+Test acc: 0.8957
+Best val acc: 0.8994
+Data(x=[22662, 300], edge_index=[2, 32927], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 190, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 96, in run_exp
+    train(model, optimizer, data, fold)
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 42, in train
+    out = model(data.x, data.random_walk_pe)[data.train_mask[fold]]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/models/coopshv_model.py", line 219, in forward
+    to_be_in_maps, in_c = in_maps(x_maps, self.edge_index, pe, edge_weights)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/models/coopshv_model.py", line 293, in forward
+    maps = self.phi(feat, edge_index, edge_weight=edge_weight)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/nn/models/basic_gnn.py", line 256, in forward
+    x = conv(x, edge_index)
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/nn/conv/sage_conv.py", line 134, in forward
+    out = self.propagate(edge_index, x=x, size=size)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/torch_geometric.nn.conv.sage_conv_SAGEConv_propagate_ko0n1kwn.py", line 128, in propagate
+    mutable_size = self._check_input(edge_index, size)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/nn/conv/message_passing.py", line 234, in _check_input
+    if edge_index.dim() != 2:
+       ^^^^^^^^^^^^^^^^
+KeyboardInterrupt

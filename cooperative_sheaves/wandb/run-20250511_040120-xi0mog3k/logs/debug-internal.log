@@ -1,0 +1,16 @@
+{"time":"2025-05-11T04:01:20.801043513-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250511_040120-xi0mog3k/logs/debug-core.log"}
+{"time":"2025-05-11T04:01:21.06659315-03:00","level":"INFO","msg":"created new stream","id":"xi0mog3k"}
+{"time":"2025-05-11T04:01:21.066622552-03:00","level":"INFO","msg":"stream: started","id":"xi0mog3k"}
+{"time":"2025-05-11T04:01:21.066627955-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"xi0mog3k"}
+{"time":"2025-05-11T04:01:21.066698679-03:00","level":"INFO","msg":"sender: started","stream_id":"xi0mog3k"}
+{"time":"2025-05-11T04:01:21.066686654-03:00","level":"INFO","msg":"handler: started","stream_id":"xi0mog3k"}
+{"time":"2025-05-11T04:01:21.347871241-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-11T04:39:49.591452482-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-11T04:39:49.591512411-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-11T04:39:50.548268505-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.55617709,"progress":"504B/504B"},{"desc":"uploading config.yaml","runtime_seconds":0.358428712,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-05-11T04:39:50.834763664-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-11T04:39:51.384910823-03:00","level":"INFO","msg":"stream: closing","id":"xi0mog3k"}
+{"time":"2025-05-11T04:39:51.38491922-03:00","level":"INFO","msg":"handler: closed","stream_id":"xi0mog3k"}
+{"time":"2025-05-11T04:39:51.384923543-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xi0mog3k"}
+{"time":"2025-05-11T04:39:51.384931024-03:00","level":"INFO","msg":"sender: closed","stream_id":"xi0mog3k"}
+{"time":"2025-05-11T04:39:51.385034368-03:00","level":"INFO","msg":"stream: closed","id":"xi0mog3k"}

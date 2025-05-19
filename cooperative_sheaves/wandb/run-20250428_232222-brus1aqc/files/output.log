@@ -1,0 +1,26 @@
+  0%|                                                                                                                                                                | 0/10 [00:00<?, ?it/s]
+Data(x=[10000, 7], edge_index=[2, 78804], y=[10000], train_mask=[10, 10000], val_mask=[10, 10000], test_mask=[10, 10000], random_walk_pe=[10000, 0])
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 194, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 100, in run_exp
+    train(model, optimizer, data, fold)
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 46, in train
+    loss = nll(out, data.y[data.train_mask[fold]])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/loss.py", line 697, in forward
+    return F.binary_cross_entropy(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/functional.py", line 3554, in binary_cross_entropy
+    return torch._C._nn.binary_cross_entropy(input, target, weight, reduction_enum)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Found dtype Long but expected Float

@@ -1,0 +1,43 @@
+ 50%|███████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                       | 5/10 [19:12<19:12, 230.42s/it]
+Fold 0 | Epochs: 1999 | Best epoch: 830
+Test acc: 0.9792
+Best val acc: 0.9798
+Fold 1 | Epochs: 1999 | Best epoch: 1646
+Test acc: 0.9905
+Best val acc: 0.9906
+Fold 2 | Epochs: 1999 | Best epoch: 1996
+Test acc: 0.9826
+Best val acc: 0.9818
+Fold 3 | Epochs: 1999 | Best epoch: 1985
+Test acc: 0.9836
+Best val acc: 0.9836
+Fold 4 | Epochs: 1999 | Best epoch: 1768
+Test acc: 0.9785
+Best val acc: 0.9819
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 201, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 101, in run_exp
+    train_loss, val_loss, tmp_test_loss] = test(model, data, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 62, in test
+    acc = roc_auc_score(data.y[mask[fold]].cpu().numpy(), pred.cpu().numpy()) #metric for minesweeper, questions and tolokers
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 206, in wrapper
+    validate_parameter_constraints(
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 75, in validate_parameter_constraints
+    constraints = [make_constraint(constraint) for constraint in constraints]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 75, in <listcomp>
+    constraints = [make_constraint(constraint) for constraint in constraints]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 126, in make_constraint
+    return _NoneConstraint()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 262, in __init__
+    def __init__(self):
+
+KeyboardInterrupt

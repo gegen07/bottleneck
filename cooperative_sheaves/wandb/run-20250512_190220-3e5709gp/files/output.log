@@ -1,0 +1,14 @@
+  0%|                                                                                                              | 0/10 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 133, in <module>
+    train_loss, best_test_loss = run_exp(wandb.config, train_loader, test_loader, fold)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 62, in run_exp
+    train_loss = train(model, optimizer, train_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 24, in train
+    const = torch.ones(out.size(0)//2, device=args.device) * -(3**0.5)/2
+                       ^^^
+UnboundLocalError: cannot access local variable 'out' where it is not associated with a value

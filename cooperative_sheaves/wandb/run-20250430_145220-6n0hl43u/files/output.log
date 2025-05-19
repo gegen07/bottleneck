@@ -1,0 +1,44 @@
+  0%|                                                                                                                                                                | 0/10 [03:40<?, ?it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 201, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 101, in run_exp
+    train_loss, val_loss, tmp_test_loss] = test(model, data, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 62, in test
+    acc = roc_auc_score(data.y[mask[fold]].cpu().numpy(), pred.cpu().numpy()) #metric for minesweeper, questions and tolokers
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 641, in roc_auc_score
+    return _average_binary_score(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/metrics/_base.py", line 69, in _average_binary_score
+    return binary_metric(y_true, y_score, sample_weight=sample_weight)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 388, in _binary_roc_auc_score
+    fpr, tpr, _ = roc_curve(y_true, y_score, sample_weight=sample_weight)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 189, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 1150, in roc_curve
+    fps, tps, thresholds = _binary_clf_curve(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 835, in _binary_clf_curve
+    pos_label = _check_pos_label_consistency(pos_label, y_true)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/validation.py", line 2632, in _check_pos_label_consistency
+    classes = np.unique(y_true)
+              ^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/numpy/lib/_arraysetops_impl.py", line 288, in unique
+    return _unpack_tuple(ret)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/numpy/lib/_arraysetops_impl.py", line 132, in _unpack_tuple
+    def _unpack_tuple(x):
+
+KeyboardInterrupt

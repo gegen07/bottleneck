@@ -1,0 +1,19 @@
+{"time":"2025-04-28T13:28:05.872413874-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250428_132805-zjeer3l5/logs/debug-core.log"}
+{"time":"2025-04-28T13:28:06.12876235-03:00","level":"INFO","msg":"created new stream","id":"zjeer3l5"}
+{"time":"2025-04-28T13:28:06.128788753-03:00","level":"INFO","msg":"stream: started","id":"zjeer3l5"}
+{"time":"2025-04-28T13:28:06.128813344-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"zjeer3l5"}
+{"time":"2025-04-28T13:28:06.128830812-03:00","level":"INFO","msg":"handler: started","stream_id":"zjeer3l5"}
+{"time":"2025-04-28T13:28:06.128826768-03:00","level":"INFO","msg":"sender: started","stream_id":"zjeer3l5"}
+{"time":"2025-04-28T13:28:06.444262484-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-28T13:35:22.2177494-03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/andrerg00/cooperative_sheaf_tests/zjeer3l5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-04-28T13:35:24.794197256-03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/andrerg00/cooperative_sheaf_tests/zjeer3l5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-04-28T13:35:29.803336543-03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/andrerg00/cooperative_sheaf_tests/zjeer3l5/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-04-28T13:46:07.099531096-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-28T13:46:07.099573837-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-28T13:46:07.935147883-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-28T13:46:08.061990827-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 703-704, summary, console lines 38-40","runtime_seconds":0.126769941}],"total_operations":1}}
+{"time":"2025-04-28T13:46:08.20718522-03:00","level":"INFO","msg":"stream: closing","id":"zjeer3l5"}
+{"time":"2025-04-28T13:46:08.207195908-03:00","level":"INFO","msg":"handler: closed","stream_id":"zjeer3l5"}
+{"time":"2025-04-28T13:46:08.207200713-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zjeer3l5"}
+{"time":"2025-04-28T13:46:08.207205957-03:00","level":"INFO","msg":"sender: closed","stream_id":"zjeer3l5"}
+{"time":"2025-04-28T13:46:08.207231681-03:00","level":"INFO","msg":"stream: closed","id":"zjeer3l5"}

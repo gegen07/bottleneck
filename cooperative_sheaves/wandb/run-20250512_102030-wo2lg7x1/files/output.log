@@ -1,0 +1,11 @@
+  0%|                                                                                                                 | 0/10 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 132, in <module>
+    train_loss, best_test_loss = run_exp(wandb.config, train_loader, test_loader, edge_index, fold)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 59, in run_exp
+    tmp_test_loss = test(model, test_data, edge_index)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test() takes 2 positional arguments but 3 were given

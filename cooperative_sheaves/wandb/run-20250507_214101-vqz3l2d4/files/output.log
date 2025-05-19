@@ -1,0 +1,28 @@
+ 40%|██████████████████████████████████████████████████████████████████████████████████▊                                                                                                                            | 4/10 [11:39<17:28, 174.82s/it]
+Fold 0 | Epochs: 1830 | Best epoch: 1630
+Test acc: 0.9814
+Best val acc: 0.9819
+Fold 1 | Epochs: 1329 | Best epoch: 1129
+Test acc: 0.9837
+Best val acc: 0.9844
+Fold 2 | Epochs: 1396 | Best epoch: 1196
+Test acc: 0.9898
+Best val acc: 0.9870
+Fold 3 | Epochs: 1644 | Best epoch: 1444
+Test acc: 0.9859
+Best val acc: 0.9875
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 201, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 98, in run_exp
+    train(model, optimizer, data, fold)
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 44, in train
+    if data.name in ['minesweeper', 'tolokers', 'questions']:
+       ^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/data.py", line 554, in __getattr__
+    def __getattr__(self, key: str) -> Any:
+
+KeyboardInterrupt

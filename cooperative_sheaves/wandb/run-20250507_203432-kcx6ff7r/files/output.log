@@ -1,0 +1,31 @@
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [50:46<00:00, 304.61s/it]
+Fold 0 | Epochs: 767 | Best epoch: 567
+Test acc: 0.7853
+Best val acc: 0.7835
+Fold 1 | Epochs: 738 | Best epoch: 538
+Test acc: 0.7980
+Best val acc: 0.8010
+Fold 2 | Epochs: 656 | Best epoch: 456
+Test acc: 0.7852
+Best val acc: 0.7956
+Fold 3 | Epochs: 619 | Best epoch: 419
+Test acc: 0.7900
+Best val acc: 0.7813
+Fold 4 | Epochs: 952 | Best epoch: 752
+Test acc: 0.7990
+Best val acc: 0.7840
+Fold 5 | Epochs: 1068 | Best epoch: 868
+Test acc: 0.7917
+Best val acc: 0.7925
+Fold 6 | Epochs: 694 | Best epoch: 494
+Test acc: 0.7769
+Best val acc: 0.7883
+Fold 7 | Epochs: 665 | Best epoch: 465
+Test acc: 0.8127
+Best val acc: 0.7848
+Fold 8 | Epochs: 753 | Best epoch: 553
+Test acc: 0.7813
+Best val acc: 0.7875
+Fold 9 | Epochs: 1070 | Best epoch: 870
+Test acc: 0.7747
+Best val acc: 0.7844

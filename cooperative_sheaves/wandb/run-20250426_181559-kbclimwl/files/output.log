@@ -1,0 +1,41 @@
+ 70%|██████████████████████████████▊             | 7/10 [01:53<00:47, 15.93s/it]
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 0 | Epochs: 192 | Best epoch: 92
+Test acc: 0.8495
+Best val acc: 0.8510
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 1 | Epochs: 211 | Best epoch: 111
+Test acc: 0.8427
+Best val acc: 0.8410
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 2 | Epochs: 210 | Best epoch: 110
+Test acc: 0.8583
+Best val acc: 0.8503
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 3 | Epochs: 187 | Best epoch: 87
+Test acc: 0.8473
+Best val acc: 0.8535
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 4 | Epochs: 187 | Best epoch: 87
+Test acc: 0.8454
+Best val acc: 0.8524
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 5 | Epochs: 184 | Best epoch: 84
+Test acc: 0.8533
+Best val acc: 0.8487
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 6 | Epochs: 191 | Best epoch: 91
+Test acc: 0.8569
+Best val acc: 0.8496
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 7 | Epochs: 186 | Best epoch: 86
+Test acc: 0.8517
+Best val acc: 0.8568
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 8 | Epochs: 218 | Best epoch: 118
+Test acc: 0.8540
+Best val acc: 0.8618
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 9 | Epochs: 202 | Best epoch: 102
+Test acc: 0.8613
+Best val acc: 0.8558

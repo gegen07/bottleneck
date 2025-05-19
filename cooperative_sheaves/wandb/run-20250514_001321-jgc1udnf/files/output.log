@@ -1,0 +1,28 @@
+  0%|                                                                                                                                          | 0/10 [00:00<?, ?it/s]/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+Baseline MSE: 15.5653 +/- 5.1602
+Fold 0 | Epochs: 499 | Best epoch: 498
+Best train loss: 0.1332 | Best test loss: 0.5460
+  warnings.warn(out)
+ 10%|████████████▉                                                                                                                    | 1/10 [03:28<31:13, 208.15s/it]
+Baseline MSE: 15.6490 +/- 5.3668
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 154, in <module>
+    train_loss, best_test_loss = run_exp(wandb.config, train_loader, test_loader, fold)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 57, in run_exp
+    train_loss = train(model, optimizer, train_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 20, in train
+    optimizer.zero_grad()
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/_compile.py", line 32, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py", line 632, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/optimizer.py", line 952, in zero_grad
+    p.grad = None
+    ^^^^^^
+KeyboardInterrupt

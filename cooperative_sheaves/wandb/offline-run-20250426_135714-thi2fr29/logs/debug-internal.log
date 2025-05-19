@@ -1,0 +1,15 @@
+{"time":"2025-04-26T13:57:14.521636085-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/offline-run-20250426_135714-thi2fr29/logs/debug-core.log"}
+{"time":"2025-04-26T13:57:14.624148953-03:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-04-26T13:57:14.624222778-03:00","level":"INFO","msg":"created new stream","id":"thi2fr29"}
+{"time":"2025-04-26T13:57:14.62423587-03:00","level":"INFO","msg":"stream: started","id":"thi2fr29"}
+{"time":"2025-04-26T13:57:14.624370079-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"thi2fr29"}
+{"time":"2025-04-26T13:57:14.624392536-03:00","level":"INFO","msg":"sender: started","stream_id":"thi2fr29"}
+{"time":"2025-04-26T13:57:14.624413931-03:00","level":"INFO","msg":"handler: started","stream_id":"thi2fr29"}
+{"time":"2025-04-26T13:57:14.627436534-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-26T13:57:17.631517962-03:00","level":"INFO","msg":"stream: closing","id":"thi2fr29"}
+{"time":"2025-04-26T13:57:17.63154446-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-26T13:57:17.631595958-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-26T13:57:17.631644292-03:00","level":"INFO","msg":"handler: closed","stream_id":"thi2fr29"}
+{"time":"2025-04-26T13:57:17.631648578-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"thi2fr29"}
+{"time":"2025-04-26T13:57:17.631667986-03:00","level":"INFO","msg":"sender: closed","stream_id":"thi2fr29"}
+{"time":"2025-04-26T13:57:17.631683512-03:00","level":"INFO","msg":"stream: closed","id":"thi2fr29"}

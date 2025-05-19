@@ -1,0 +1,42 @@
+ 10%|██████████▍                                                                                             | 1/10 [03:40<33:08, 220.91s/it]
+Fold 0 | Epochs: 499 | Best epoch: 483
+Best train loss: 0.0029 | Best test loss: 0.0073
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 132, in <module>
+    train_loss, best_test_loss = run_exp(wandb.config, train_loader, test_loader, edge_index, fold)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 58, in run_exp
+    train_loss = train(model, optimizer, train_data, edge_index)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 21, in train
+    optimizer.zero_grad()
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/_compile.py", line 32, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/_dynamo/eval_frame.py", line 632, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/optimizer.py", line 947, in zero_grad
+    with torch.autograd.profiler.record_function(self._zero_grad_profile_name):
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/autograd/profiler.py", line 750, in __exit__
+    torch.ops.profiler._record_function_exit._RecordFunction(record)
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/_ops.py", line 940, in __call__
+    if _must_dispatch_in_python(args, kwargs):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/_ops.py", line 994, in _must_dispatch_in_python
+    return pytree.tree_any(
+           ^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/_pytree.py", line 1203, in tree_any
+    return any(map(pred, flat_args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/_pytree.py", line 904, in tree_iter
+    yield from tree_iter(child, is_leaf=is_leaf)
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/_pytree.py", line 900, in tree_iter
+    child_pytrees, _ = flatten_fn(tree)
+                       ^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/_pytree.py", line 439, in _dict_flatten
+    def _dict_flatten(d: Dict[Any, Any]) -> Tuple[List[Any], Context]:
+
+KeyboardInterrupt

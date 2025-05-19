@@ -1,0 +1,16 @@
+{"time":"2025-04-27T02:27:25.930453629-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_022725-fb7viam3/logs/debug-core.log"}
+{"time":"2025-04-27T02:27:26.186554259-03:00","level":"INFO","msg":"created new stream","id":"fb7viam3"}
+{"time":"2025-04-27T02:27:26.186583024-03:00","level":"INFO","msg":"stream: started","id":"fb7viam3"}
+{"time":"2025-04-27T02:27:26.186594307-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"fb7viam3"}
+{"time":"2025-04-27T02:27:26.186604488-03:00","level":"INFO","msg":"handler: started","stream_id":"fb7viam3"}
+{"time":"2025-04-27T02:27:26.186645743-03:00","level":"INFO","msg":"sender: started","stream_id":"fb7viam3"}
+{"time":"2025-04-27T02:27:26.448097614-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-27T02:30:58.771491707-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-27T02:30:58.771547872-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-27T02:30:59.731577617-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.579380073,"progress":"504B/504B"},{"desc":"uploading config.yaml","runtime_seconds":0.394626615,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-27T02:31:00.043346078-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-27T02:31:00.283220421-03:00","level":"INFO","msg":"stream: closing","id":"fb7viam3"}
+{"time":"2025-04-27T02:31:00.283233452-03:00","level":"INFO","msg":"handler: closed","stream_id":"fb7viam3"}
+{"time":"2025-04-27T02:31:00.283243581-03:00","level":"INFO","msg":"sender: closed","stream_id":"fb7viam3"}
+{"time":"2025-04-27T02:31:00.283239312-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fb7viam3"}
+{"time":"2025-04-27T02:31:00.283297543-03:00","level":"INFO","msg":"stream: closed","id":"fb7viam3"}

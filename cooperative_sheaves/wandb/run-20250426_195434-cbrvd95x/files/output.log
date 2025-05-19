@@ -1,0 +1,34 @@
+ 10%|████▍                                       | 1/10 [00:23<03:34, 23.87s/it]
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 0 | Epochs: 319 | Best epoch: 219
+Test acc: 0.8583
+Best val acc: 0.8605
+Data(x=[22662, 300], edge_index=[2, 65854], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 190, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 99, in run_exp
+    train_loss, val_loss, tmp_test_loss] = test(model, data, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 52, in test
+    model.eval()
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2865, in eval
+    return self.train(False)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2846, in train
+    module.train(mode)
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2846, in train
+    module.train(mode)
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2846, in train
+    module.train(mode)
+  [Previous line repeated 2 more times]
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2844, in train
+    self.training = mode
+    ^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1965, in __setattr__
+    modules = self.__dict__.get("_modules")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

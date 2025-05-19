@@ -1,0 +1,1 @@
+{"fold0_tmp_test_loss":1.836714267730713,"fold0_val_loss":1.8764928579330444,"_step":1825,"fold0_val_acc":0.5080842724154826,"_timestamp":1.7459506094819372e+09,"fold0_train_loss":0.21523001790046692,"_runtime":310.583448598,"_wandb":{"runtime":310},"fold0_tmp_test_acc":0.5155969296096684,"fold0_train_acc":0.9390821492732321}

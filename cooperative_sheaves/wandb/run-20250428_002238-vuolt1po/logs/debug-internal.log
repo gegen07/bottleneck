@@ -1,0 +1,16 @@
+{"time":"2025-04-28T00:22:38.261173098-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250428_002238-vuolt1po/logs/debug-core.log"}
+{"time":"2025-04-28T00:22:38.5162794-03:00","level":"INFO","msg":"created new stream","id":"vuolt1po"}
+{"time":"2025-04-28T00:22:38.516301907-03:00","level":"INFO","msg":"stream: started","id":"vuolt1po"}
+{"time":"2025-04-28T00:22:38.516362312-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"vuolt1po"}
+{"time":"2025-04-28T00:22:38.516369875-03:00","level":"INFO","msg":"sender: started","stream_id":"vuolt1po"}
+{"time":"2025-04-28T00:22:38.516380587-03:00","level":"INFO","msg":"handler: started","stream_id":"vuolt1po"}
+{"time":"2025-04-28T00:22:38.785563605-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-28T00:29:45.327481363-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-28T00:29:45.327583365-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-28T00:29:46.287780341-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.555461049,"progress":"502B/502B"}],"total_operations":1}}
+{"time":"2025-04-28T00:29:46.698549113-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-28T00:29:46.919888239-03:00","level":"INFO","msg":"stream: closing","id":"vuolt1po"}
+{"time":"2025-04-28T00:29:46.919899067-03:00","level":"INFO","msg":"handler: closed","stream_id":"vuolt1po"}
+{"time":"2025-04-28T00:29:46.919903709-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vuolt1po"}
+{"time":"2025-04-28T00:29:46.919911231-03:00","level":"INFO","msg":"sender: closed","stream_id":"vuolt1po"}
+{"time":"2025-04-28T00:29:46.919947063-03:00","level":"INFO","msg":"stream: closed","id":"vuolt1po"}

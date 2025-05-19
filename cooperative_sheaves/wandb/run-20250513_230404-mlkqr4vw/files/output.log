@@ -1,0 +1,34 @@
+  0%|                                                                                                                                          | 0/10 [00:00<?, ?it/s]/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+Baseline MSE: 0.5259 +/- 0.0000
+Fold 0 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.0003 | Best test loss: 10.1627
+  warnings.warn(out)
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [00:14<00:00,  1.41s/it]
+Baseline MSE: 0.8088 +/- 0.0000
+Fold 1 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.0102 | Best test loss: 0.4621
+Baseline MSE: 0.1269 +/- 0.0000
+Fold 2 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.0006 | Best test loss: 0.3696
+Baseline MSE: 0.5996 +/- 0.0000
+Fold 3 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.0001 | Best test loss: 6.1176
+Baseline MSE: 0.8729 +/- 0.0000
+Fold 4 | Epochs: 499 | Best epoch: 498
+Best train loss: 0.0000 | Best test loss: 1.7731
+Baseline MSE: 0.7007 +/- 0.0000
+Fold 5 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.0001 | Best test loss: 0.5488
+Baseline MSE: 0.0142 +/- 0.0000
+Fold 6 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.0000 | Best test loss: 0.4252
+Baseline MSE: 0.0764 +/- 0.0000
+Fold 7 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.0003 | Best test loss: 2.7240
+Baseline MSE: 0.1519 +/- 0.0000
+Fold 8 | Epochs: 499 | Best epoch: 495
+Best train loss: 0.0004 | Best test loss: 2.5858
+Baseline MSE: 0.6307 +/- 0.0000
+Fold 9 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.0000 | Best test loss: 3.9877
+Baseline MSE: 0.4508 +/- 0.3089

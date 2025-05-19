@@ -1,0 +1,15 @@
+{"time":"2025-05-15T03:37:18.83373017-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/offline-run-20250515_033718-xteteftv/logs/debug-core.log"}
+{"time":"2025-05-15T03:37:18.93674578-03:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-15T03:37:18.936799169-03:00","level":"INFO","msg":"created new stream","id":"xteteftv"}
+{"time":"2025-05-15T03:37:18.936811218-03:00","level":"INFO","msg":"stream: started","id":"xteteftv"}
+{"time":"2025-05-15T03:37:18.936903456-03:00","level":"INFO","msg":"sender: started","stream_id":"xteteftv"}
+{"time":"2025-05-15T03:37:18.936918261-03:00","level":"INFO","msg":"handler: started","stream_id":"xteteftv"}
+{"time":"2025-05-15T03:37:18.936919841-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"xteteftv"}
+{"time":"2025-05-15T03:37:18.939235909-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T03:37:19.941149981-03:00","level":"INFO","msg":"stream: closing","id":"xteteftv"}
+{"time":"2025-05-15T03:37:19.941168856-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T03:37:19.941226524-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T03:37:19.941308273-03:00","level":"INFO","msg":"handler: closed","stream_id":"xteteftv"}
+{"time":"2025-05-15T03:37:19.941316562-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xteteftv"}
+{"time":"2025-05-15T03:37:19.94134539-03:00","level":"INFO","msg":"sender: closed","stream_id":"xteteftv"}
+{"time":"2025-05-15T03:37:19.941353417-03:00","level":"INFO","msg":"stream: closed","id":"xteteftv"}

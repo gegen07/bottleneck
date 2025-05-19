@@ -1,0 +1,21 @@
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [14:48<00:00, 88.82s/it]
+Fold 0 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.3355 | Best test loss: 0.8346
+Fold 1 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.3548 | Best test loss: 0.8888
+Fold 2 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.3682 | Best test loss: 0.8830
+Fold 3 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.3718 | Best test loss: 0.8624
+Fold 4 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.3697 | Best test loss: 0.8556
+Fold 5 | Epochs: 499 | Best epoch: 496
+Best train loss: 0.3272 | Best test loss: 0.8496
+Fold 6 | Epochs: 499 | Best epoch: 498
+Best train loss: 0.3464 | Best test loss: 0.9807
+Fold 7 | Epochs: 499 | Best epoch: 489
+Best train loss: 0.3837 | Best test loss: 0.8903
+Fold 8 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.3638 | Best test loss: 0.8749
+Fold 9 | Epochs: 499 | Best epoch: 498
+Best train loss: 0.3595 | Best test loss: 0.8360

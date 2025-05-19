@@ -1,0 +1,15 @@
+{"time":"2025-05-15T07:06:43.325290497-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250515_070643-buycx19a/logs/debug-core.log"}
+{"time":"2025-05-15T07:06:43.581484716-03:00","level":"INFO","msg":"created new stream","id":"buycx19a"}
+{"time":"2025-05-15T07:06:43.581518174-03:00","level":"INFO","msg":"stream: started","id":"buycx19a"}
+{"time":"2025-05-15T07:06:43.581596339-03:00","level":"INFO","msg":"handler: started","stream_id":"buycx19a"}
+{"time":"2025-05-15T07:06:43.581599287-03:00","level":"INFO","msg":"sender: started","stream_id":"buycx19a"}
+{"time":"2025-05-15T07:06:43.581597674-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"buycx19a"}
+{"time":"2025-05-15T07:06:43.798949617-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T07:08:50.0639505-03:00","level":"INFO","msg":"stream: closing","id":"buycx19a"}
+{"time":"2025-05-15T07:08:50.06397727-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T07:08:50.064005923-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T07:08:51.081952962-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T07:08:51.491208681-03:00","level":"INFO","msg":"handler: closed","stream_id":"buycx19a"}
+{"time":"2025-05-15T07:08:51.491247565-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"buycx19a"}
+{"time":"2025-05-15T07:08:51.49128124-03:00","level":"INFO","msg":"sender: closed","stream_id":"buycx19a"}
+{"time":"2025-05-15T07:08:51.491312851-03:00","level":"INFO","msg":"stream: closed","id":"buycx19a"}

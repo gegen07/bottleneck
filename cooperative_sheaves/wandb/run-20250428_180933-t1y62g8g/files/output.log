@@ -1,0 +1,2 @@
+  0%|                                                                                                                                                                | 0/10 [00:00<?, ?it/s]
+Data(x=[22662, 300], edge_index=[2, 32927], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])

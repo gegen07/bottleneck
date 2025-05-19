@@ -1,0 +1,31 @@
+  0%|                                                                                                                                          | 0/10 [00:00<?, ?it/s]/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+Baseline MSE: 0.2301 +/- 0.1314
+Fold 0 | Epochs: 499 | Best epoch: 471
+Best train loss: 0.0000 | Best test loss: 0.9642
+  warnings.warn(out)
+ 30%|███████████████████████████████████████                                                                                           | 3/10 [02:15<05:16, 45.20s/it]
+Baseline MSE: 0.5436 +/- 0.2523
+Fold 1 | Epochs: 499 | Best epoch: 495
+Best train loss: 0.0001 | Best test loss: 0.9410
+Baseline MSE: 0.5719 +/- 0.2712
+Fold 2 | Epochs: 499 | Best epoch: 288
+Best train loss: 0.0001 | Best test loss: 0.7284
+Baseline MSE: 0.4046 +/- 0.2529
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 159, in <module>
+    train_loss, best_test_loss = run_exp(wandb.config, train_loader, test_loader, fold)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 58, in run_exp
+    train_loss = train(model, optimizer, train_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 26, in train
+    optimizer.step()
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/optimizer.py", line 487, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/optimizer.py", line 91, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,46 @@
+ 60%|███████████████████████████████████████████████████████████████                                          | 6/10 [06:13<04:08, 62.24s/it]
+Fold 0 | Epochs: 499 | Best epoch: 475
+Best train loss: 0.0911 | Best test loss: 0.6048
+Fold 1 | Epochs: 499 | Best epoch: 430
+Best train loss: 0.1052 | Best test loss: 0.6211
+Fold 2 | Epochs: 499 | Best epoch: 369
+Best train loss: 0.1027 | Best test loss: 0.4855
+Fold 3 | Epochs: 499 | Best epoch: 491
+Best train loss: 0.1069 | Best test loss: 0.3865
+Fold 4 | Epochs: 499 | Best epoch: 493
+Best train loss: 0.0886 | Best test loss: 0.4945
+Fold 5 | Epochs: 499 | Best epoch: 496
+Best train loss: 0.1005 | Best test loss: 0.4638
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 132, in <module>
+    train_loss, best_test_loss = run_exp(wandb.config, train_loader, test_loader, edge_index, fold)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 58, in run_exp
+    train_loss = train(model, optimizer, train_data, edge_index)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 19, in train
+    for data in loader:
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/loader/dataloader.py", line 27, in __call__
+    return Batch.from_data_list(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/batch.py", line 97, in from_data_list
+    batch, slice_dict, inc_dict = collate(
+                                  ^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/collate.py", line 109, in collate
+    value, slices, incs = _collate(attr, values, data_list, stores,
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/collate.py", line 162, in _collate
+    key = str(key)
+          ^^^^^^^^
+KeyboardInterrupt

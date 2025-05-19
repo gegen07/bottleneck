@@ -1,0 +1,37 @@
+  0%|                                                                                                              | 0/10 [00:00<?, ?it/s]/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+Baseline MSE: 1.3725 +/- 0.3023
+Fold 0 | Epochs: 499 | Best epoch: 460
+Best train loss: 0.0088 | Best test loss: 0.2232
+  warnings.warn(out)
+ 10%|██████████                                                                                           | 1/10 [02:31<22:45, 151.70s/it]
+Baseline MSE: 1.3344 +/- 0.2753
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 154, in <module>
+    train_loss, best_test_loss = run_exp(wandb.config, train_loader, test_loader, fold)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 57, in run_exp
+    train_loss = train(model, optimizer, train_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 25, in train
+    optimizer.step()
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/optimizer.py", line 472, in wrapper
+    with torch.autograd.profiler.record_function(profile_name):
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/autograd/profiler.py", line 750, in __exit__
+    torch.ops.profiler._record_function_exit._RecordFunction(record)
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/_ops.py", line 940, in __call__
+    if _must_dispatch_in_python(args, kwargs):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/_ops.py", line 994, in _must_dispatch_in_python
+    return pytree.tree_any(
+           ^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/_pytree.py", line 1203, in tree_any
+    return any(map(pred, flat_args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/_pytree.py", line 904, in tree_iter
+    yield from tree_iter(child, is_leaf=is_leaf)
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/utils/_pytree.py", line 890, in tree_iter
+    def tree_iter(
+
+KeyboardInterrupt

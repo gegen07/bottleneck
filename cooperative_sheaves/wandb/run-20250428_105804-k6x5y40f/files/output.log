@@ -1,0 +1,34 @@
+ 30%|█████████████████████████████████████████████▎                                                                                                         | 3/10 [06:13<14:30, 124.40s/it]
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], random_walk_pe=[24492, 0])
+Fold 0 | Epochs: 291 | Best epoch: 191
+Test acc: 0.4385
+Best val acc: 0.4397
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], random_walk_pe=[24492, 0])
+Fold 1 | Epochs: 416 | Best epoch: 316
+Test acc: 0.5048
+Best val acc: 0.5035
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], random_walk_pe=[24492, 0])
+Fold 2 | Epochs: 778 | Best epoch: 678
+Test acc: 0.4883
+Best val acc: 0.4976
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], random_walk_pe=[24492, 0])
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 190, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 96, in run_exp
+    train(model, optimizer, data, fold)
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 38, in train
+    model.train()
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2846, in train
+    module.train(mode)
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2846, in train
+    module.train(mode)
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2845, in train
+    for module in self.children():
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/modules/module.py", line 2722, in children
+    def children(self) -> Iterator["Module"]:
+
+KeyboardInterrupt

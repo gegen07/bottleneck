@@ -1,0 +1,47 @@
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_setup.py:_flush():67] Configure stats pid to 81631
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_setup.py:_flush():67] Loading settings from /home/alunos/.config/wandb/settings
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_setup.py:_flush():67] Loading settings from /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/settings
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250428_092654-y9vzvv3c/logs/debug.log
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250428_092654-y9vzvv3c/logs/debug-internal.log
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_init.py:init():781] calling init triggers
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'epochs': 3000, 'lr': 0.02, 'weight_decay': 0.0, 'sheaf_decay': 0.0, 'early_stopping': 100, 'lr_decay_patience': 20, 'min_acc': 0.0, 'stop_strategy': 'acc', 'd': 3, 'layers': 3, 'normalised': True, 'deg_normalised': False, 'linear': False, 'hidden_channels': 32, 'input_dropout': 0.0, 'dropout': 0.2, 'left_weights': True, 'right_weights': True, 'add_lp': False, 'add_hp': False, 'use_act': True, 'second_linear': False, 'orth': 'householder', 'sheaf_act': 'tanh', 'edge_weights': True, 'sparse_learner': False, 'use_bias': True, 'dataset': 'amazon_ratings', 'seed': 43, 'cuda': 0, 'folds': 10, 'model': 'CoopSheaf', 'entity': '', 'evectors': 0, 'max_t': 1.0, 'int_method': None, 'step_size': 1, 'max_iters': 100, 'adjoint_method': 'adaptive_heun', 'adjoint': False, 'adjoint_step_size': 1, 'tol_scale': 1.0, 'tol_scale_adjoint': 1.0, 'max_nfe': 1000, 'no_early': False, 'earlystopxT': 3, 'max_test_steps': 100, 'num_bundles': 1, 'diffusion_time': 1, 'gnn_layers': 1, 'gnn_hidden': 64, 'pe_size': 0, 'sha': 'd9e512df9b011f53410726f2925f45dcf2d31b3d', 'graph_size': 24492, 'input_dim': 300, 'output_dim': 5, 'device': device(type='cuda', index=0), '_wandb': {}}
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_init.py:init():809] starting backend
+2025-04-28 09:26:54,109 INFO    MainThread:81631 [wandb_init.py:init():813] sending inform_init request
+2025-04-28 09:26:54,112 INFO    MainThread:81631 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-28 09:26:54,112 INFO    MainThread:81631 [wandb_init.py:init():823] backend started and connected
+2025-04-28 09:26:54,113 INFO    MainThread:81631 [wandb_init.py:init():915] updated telemetry
+2025-04-28 09:26:54,116 INFO    MainThread:81631 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-28 09:26:54,132 WARNING MainThread:81631 [wandb_init.py:init():1534] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1530, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 965, in init
+    result = wait_with_progress(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 70, in wait_all_with_progress
+    return _wait_handles(handle_list, timeout=progress_after)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 110, in _wait_handles
+    results.append(handle.wait_or(timeout=remaining_timeout))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/wandb/sdk/mailbox/mailbox_handle.py", line 122, in wait_or
+    return self._fn(self._handle.wait_or(timeout=timeout))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/wandb/sdk/mailbox/response_handle.py", line 88, in wait_or
+    if not self._event.wait(timeout=timeout):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/3.11.9/lib/python3.11/threading.py", line 629, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/3.11.9/lib/python3.11/threading.py", line 331, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2025-04-28 09:26:54,571 INFO    MsgRouterThr:81631 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

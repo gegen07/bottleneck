@@ -1,0 +1,49 @@
+  0%|                                                                                                                                          | 0/10 [00:00<?, ?it/s]/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+Baseline MSE: 0.4255 +/- 0.3538
+Fold 0 | Epochs: 499 | Best epoch: 486
+Best train loss: 0.0013 | Best test loss: 0.0062
+  warnings.warn(out)
+ 60%|██████████████████████████████████████████████████████████████████████████████                                                    | 6/10 [07:04<04:42, 70.68s/it]
+Baseline MSE: 0.4228 +/- 0.4234
+Fold 1 | Epochs: 499 | Best epoch: 493
+Best train loss: 0.0042 | Best test loss: 0.0775
+Baseline MSE: 0.4399 +/- 0.3886
+Fold 2 | Epochs: 499 | Best epoch: 455
+Best train loss: 0.0006 | Best test loss: 0.0471
+Baseline MSE: 0.4513 +/- 0.3564
+Fold 3 | Epochs: 499 | Best epoch: 478
+Best train loss: 0.0004 | Best test loss: 0.0347
+Baseline MSE: 0.4160 +/- 0.3452
+Fold 4 | Epochs: 499 | Best epoch: 486
+Best train loss: 0.0008 | Best test loss: 0.0027
+Baseline MSE: 0.4776 +/- 0.4756
+Fold 5 | Epochs: 499 | Best epoch: 481
+Best train loss: 0.0005 | Best test loss: 0.0041
+Baseline MSE: 0.3662 +/- 0.4064
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 159, in <module>
+    train_loss, best_test_loss = run_exp(wandb.config, train_loader, test_loader, fold)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 58, in run_exp
+    train_loss = train(model, optimizer, train_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 26, in train
+    optimizer.step()
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/optimizer.py", line 487, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/optimizer.py", line 91, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/adam.py", line 223, in step
+    adam(
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/optimizer.py", line 154, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/adam.py", line 784, in adam
+    func(
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/optim/adam.py", line 524, in _multi_tensor_adam
+    torch._foreach_add_(
+KeyboardInterrupt

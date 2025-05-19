@@ -1,0 +1,26 @@
+python -m exp.run_synth \
+    --dataset=oversmoothing \
+    --d=3 \
+    --num_bundles=1 \
+    --layers=1 \
+    --gnn_layers=0 \
+    --gnn_hidden=64 \
+    --pe_size=0 \
+    --hidden_channels=64 \
+    --epochs=500 \
+    --early_stopping=500 \
+    --edge_weights=False \
+    --left_weights=True \
+    --right_weights=True \
+    --lr=0.001 \
+    --weight_decay=1e-7 \
+    --input_dropout=0 \
+    --dropout=0 \
+    --use_act=True \
+    --use_bias=True \
+    --folds=10 \
+    --model=CoopSheaf \
+    --normalised=True \
+    --orth='householder' \
+    --stop_strategy='acc' \
+    --entity="${ENTITY}"

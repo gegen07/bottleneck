@@ -1,0 +1,26 @@
+python -m exp.run_synth \
+    --dataset=oversquashing \
+    --d=3 \
+    --num_bundles=1 \
+    --layers=3 \
+    --gnn_layers=3 \
+    --gnn_hidden=64 \
+    --pe_size=0 \
+    --hidden_channels=256 \
+    --epochs=500 \
+    --early_stopping=500 \
+    --edge_weights=False \
+    --left_weights=True \
+    --right_weights=True \
+    --lr=0.001 \
+    --weight_decay=0 \
+    --input_dropout=0 \
+    --dropout=0 \
+    --use_act=True \
+    --use_bias=True \
+    --folds=10 \
+    --model=GCN \
+    --normalised=True \
+    --orth='householder' \
+    --stop_strategy='acc' \
+    --entity="${ENTITY}"

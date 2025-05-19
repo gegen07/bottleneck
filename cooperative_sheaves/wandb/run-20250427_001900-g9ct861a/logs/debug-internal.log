@@ -1,0 +1,16 @@
+{"time":"2025-04-27T00:19:00.897210065-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_001900-g9ct861a/logs/debug-core.log"}
+{"time":"2025-04-27T00:19:01.156381325-03:00","level":"INFO","msg":"created new stream","id":"g9ct861a"}
+{"time":"2025-04-27T00:19:01.156411212-03:00","level":"INFO","msg":"stream: started","id":"g9ct861a"}
+{"time":"2025-04-27T00:19:01.15642908-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"g9ct861a"}
+{"time":"2025-04-27T00:19:01.156490191-03:00","level":"INFO","msg":"handler: started","stream_id":"g9ct861a"}
+{"time":"2025-04-27T00:19:01.156497879-03:00","level":"INFO","msg":"sender: started","stream_id":"g9ct861a"}
+{"time":"2025-04-27T00:19:01.424493153-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-27T00:22:24.263557555-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-27T00:22:24.263655751-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-27T00:22:25.22451598-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.570547946,"progress":"2.5KB/2.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.377440314,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-27T00:22:25.514279389-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-27T00:22:25.723903574-03:00","level":"INFO","msg":"stream: closing","id":"g9ct861a"}
+{"time":"2025-04-27T00:22:25.72391194-03:00","level":"INFO","msg":"handler: closed","stream_id":"g9ct861a"}
+{"time":"2025-04-27T00:22:25.723915943-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g9ct861a"}
+{"time":"2025-04-27T00:22:25.723953036-03:00","level":"INFO","msg":"sender: closed","stream_id":"g9ct861a"}
+{"time":"2025-04-27T00:22:25.723956446-03:00","level":"INFO","msg":"stream: closed","id":"g9ct861a"}

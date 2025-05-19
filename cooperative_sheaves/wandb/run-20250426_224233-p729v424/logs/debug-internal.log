@@ -1,0 +1,16 @@
+{"time":"2025-04-26T22:42:33.012180097-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250426_224233-p729v424/logs/debug-core.log"}
+{"time":"2025-04-26T22:42:33.26906315-03:00","level":"INFO","msg":"created new stream","id":"p729v424"}
+{"time":"2025-04-26T22:42:33.269094027-03:00","level":"INFO","msg":"stream: started","id":"p729v424"}
+{"time":"2025-04-26T22:42:33.269108057-03:00","level":"INFO","msg":"handler: started","stream_id":"p729v424"}
+{"time":"2025-04-26T22:42:33.269117222-03:00","level":"INFO","msg":"sender: started","stream_id":"p729v424"}
+{"time":"2025-04-26T22:42:33.269120912-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"p729v424"}
+{"time":"2025-04-26T22:42:33.524861685-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-26T22:46:33.68756301-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-26T22:46:33.687589048-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-26T22:46:34.648408883-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.482733612,"progress":"2.5KB/2.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.320251008,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-26T22:46:34.949412674-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-26T22:46:35.116662254-03:00","level":"INFO","msg":"stream: closing","id":"p729v424"}
+{"time":"2025-04-26T22:46:35.116674288-03:00","level":"INFO","msg":"handler: closed","stream_id":"p729v424"}
+{"time":"2025-04-26T22:46:35.116680873-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"p729v424"}
+{"time":"2025-04-26T22:46:35.116687044-03:00","level":"INFO","msg":"sender: closed","stream_id":"p729v424"}
+{"time":"2025-04-26T22:46:35.116728816-03:00","level":"INFO","msg":"stream: closed","id":"p729v424"}

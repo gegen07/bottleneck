@@ -1,0 +1,16 @@
+{"time":"2025-04-27T01:10:57.954933201-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_011057-gdeskhkk/logs/debug-core.log"}
+{"time":"2025-04-27T01:10:58.213986823-03:00","level":"INFO","msg":"created new stream","id":"gdeskhkk"}
+{"time":"2025-04-27T01:10:58.214013272-03:00","level":"INFO","msg":"stream: started","id":"gdeskhkk"}
+{"time":"2025-04-27T01:10:58.214094867-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"gdeskhkk"}
+{"time":"2025-04-27T01:10:58.214126644-03:00","level":"INFO","msg":"handler: started","stream_id":"gdeskhkk"}
+{"time":"2025-04-27T01:10:58.214094795-03:00","level":"INFO","msg":"sender: started","stream_id":"gdeskhkk"}
+{"time":"2025-04-27T01:10:58.424011616-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-27T01:14:41.859588036-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-27T01:14:41.859680764-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-27T01:14:42.819268518-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.545866128,"progress":"2.5KB/2.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.340156338,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-27T01:14:43.178455482-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-27T01:14:43.372824562-03:00","level":"INFO","msg":"stream: closing","id":"gdeskhkk"}
+{"time":"2025-04-27T01:14:43.37283912-03:00","level":"INFO","msg":"handler: closed","stream_id":"gdeskhkk"}
+{"time":"2025-04-27T01:14:43.372845804-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gdeskhkk"}
+{"time":"2025-04-27T01:14:43.372863707-03:00","level":"INFO","msg":"sender: closed","stream_id":"gdeskhkk"}
+{"time":"2025-04-27T01:14:43.372898742-03:00","level":"INFO","msg":"stream: closed","id":"gdeskhkk"}

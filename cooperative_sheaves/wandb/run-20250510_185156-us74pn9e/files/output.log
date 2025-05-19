@@ -1,0 +1,43 @@
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏              | 9/10 [3:59:56<26:39, 1599.66s/it]
+Fold 0 | Epochs: 2999 | Best epoch: 2994
+Test acc: 0.7918
+Best val acc: 0.7885
+Fold 1 | Epochs: 2999 | Best epoch: 2989
+Test acc: 0.7958
+Best val acc: 0.7960
+Fold 2 | Epochs: 2999 | Best epoch: 2999
+Test acc: 0.7922
+Best val acc: 0.7905
+Fold 3 | Epochs: 2999 | Best epoch: 2999
+Test acc: 0.7872
+Best val acc: 0.7890
+Fold 4 | Epochs: 2999 | Best epoch: 2992
+Test acc: 0.7914
+Best val acc: 0.7735
+Fold 5 | Epochs: 2999 | Best epoch: 2961
+Test acc: 0.8000
+Best val acc: 0.7835
+Fold 6 | Epochs: 2999 | Best epoch: 2997
+Test acc: 0.7729
+Best val acc: 0.7771
+Fold 7 | Epochs: 2999 | Best epoch: 2944
+Test acc: 0.8041
+Best val acc: 0.7810
+Fold 8 | Epochs: 2999 | Best epoch: 2755
+Test acc: 0.7751
+Best val acc: 0.7687
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 201, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 98, in run_exp
+    train(model, optimizer, data, fold)
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 44, in train
+    if data.name in ['minesweeper', 'tolokers', 'questions']:
+       ^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/data.py", line 554, in __getattr__
+    def __getattr__(self, key: str) -> Any:
+
+KeyboardInterrupt

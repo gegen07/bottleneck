@@ -1,0 +1,2 @@
+  0%|                                                                                                                                                                | 0/10 [00:00<?, ?it/s]
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])

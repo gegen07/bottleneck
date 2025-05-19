@@ -1,0 +1,8 @@
+  0%|                                                                                                                                          | 0/10 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 153, in <module>
+    mean,std = compute_baseline2_mse(test_graphs)
+               ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'compute_baseline2_mse' is not defined

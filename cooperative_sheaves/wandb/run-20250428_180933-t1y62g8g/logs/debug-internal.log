@@ -1,0 +1,9 @@
+{"time":"2025-04-28T18:09:33.575517207-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250428_180933-t1y62g8g/logs/debug-core.log"}
+{"time":"2025-04-28T18:09:33.869867464-03:00","level":"INFO","msg":"created new stream","id":"t1y62g8g"}
+{"time":"2025-04-28T18:09:33.869897314-03:00","level":"INFO","msg":"stream: started","id":"t1y62g8g"}
+{"time":"2025-04-28T18:09:33.869943811-03:00","level":"INFO","msg":"sender: started","stream_id":"t1y62g8g"}
+{"time":"2025-04-28T18:09:33.869947227-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"t1y62g8g"}
+{"time":"2025-04-28T18:09:33.869981087-03:00","level":"INFO","msg":"handler: started","stream_id":"t1y62g8g"}
+{"time":"2025-04-28T18:09:34.137853082-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-28T18:11:19.758920401-03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/andrerg00/cooperative_sheaf_tests/t1y62g8g/file_stream"}
+{"time":"2025-04-28T18:11:19.758953954-03:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/andrerg00/cooperative_sheaf_tests/t1y62g8g/file_stream: {\"error\":\"run cooperative_sheaf_tests/t1y62g8g not found while streaming file\"}"}

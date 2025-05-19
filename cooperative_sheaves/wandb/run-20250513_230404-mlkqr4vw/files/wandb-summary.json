@@ -1,0 +1,1 @@
+{"test_loss_std":2.9946401202828374,"_runtime":14.751738189,"fold0_train_loss":0.0002679743047337979,"train_loss":0.0012096721231500851,"best_test_loss":3.9876933097839355,"_wandb":{"runtime":14},"_step":509,"test_loss":2.9156561225652693,"best_train_loss":6.948649570404086e-06,"best_epoch":499,"fold0_test_loss":10.16269588470459,"_timestamp":1.747188259138067e+09}

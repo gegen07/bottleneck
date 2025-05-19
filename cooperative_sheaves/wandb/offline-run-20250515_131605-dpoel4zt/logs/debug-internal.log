@@ -1,0 +1,15 @@
+{"time":"2025-05-15T13:16:05.900806247-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/offline-run-20250515_131605-dpoel4zt/logs/debug-core.log"}
+{"time":"2025-05-15T13:16:06.003682791-03:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-15T13:16:06.003744178-03:00","level":"INFO","msg":"created new stream","id":"dpoel4zt"}
+{"time":"2025-05-15T13:16:06.00375746-03:00","level":"INFO","msg":"stream: started","id":"dpoel4zt"}
+{"time":"2025-05-15T13:16:06.003764974-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"dpoel4zt"}
+{"time":"2025-05-15T13:16:06.003812517-03:00","level":"INFO","msg":"sender: started","stream_id":"dpoel4zt"}
+{"time":"2025-05-15T13:16:06.003814283-03:00","level":"INFO","msg":"handler: started","stream_id":"dpoel4zt"}
+{"time":"2025-05-15T13:16:06.005935648-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T13:16:16.015789286-03:00","level":"INFO","msg":"stream: closing","id":"dpoel4zt"}
+{"time":"2025-05-15T13:16:16.015818748-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T13:16:16.016762289-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T13:16:16.01685989-03:00","level":"INFO","msg":"handler: closed","stream_id":"dpoel4zt"}
+{"time":"2025-05-15T13:16:16.016867021-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dpoel4zt"}
+{"time":"2025-05-15T13:16:16.016878789-03:00","level":"INFO","msg":"sender: closed","stream_id":"dpoel4zt"}
+{"time":"2025-05-15T13:16:16.016896346-03:00","level":"INFO","msg":"stream: closed","id":"dpoel4zt"}

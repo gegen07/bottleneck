@@ -1,0 +1,46 @@
+wandb_version: 1
+
+d:
+  value: 2
+dataset:
+  value: roman_empire
+dropout:
+  value: 0.4952836447733653
+early_stopping:
+  value: 100
+entity:
+  value: andrerg00
+gnn_hidden:
+  value: 64
+gnn_layers:
+  value: 3
+hidden_channels:
+  value: 88
+input_dropout:
+  value: 0.15420572682911304
+layers:
+  value: 7
+left_weights:
+  value: true
+lr:
+  value: 0.02
+lr_decay_patience:
+  value: 20
+model:
+  value: CoopSheaf
+normalised:
+  value: true
+orth:
+  value: householder
+pe_size:
+  value: 0
+right_weights:
+  value: false
+seed:
+  value: 0
+sparse_learner:
+  value: true
+use_act:
+  value: true
+weight_decay:
+  value: 0.09282718601398504

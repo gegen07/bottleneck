@@ -1,0 +1,16 @@
+{"time":"2025-04-27T01:45:17.274820138-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_014517-d7rx0aja/logs/debug-core.log"}
+{"time":"2025-04-27T01:45:17.529083617-03:00","level":"INFO","msg":"created new stream","id":"d7rx0aja"}
+{"time":"2025-04-27T01:45:17.529104896-03:00","level":"INFO","msg":"stream: started","id":"d7rx0aja"}
+{"time":"2025-04-27T01:45:17.529193773-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"d7rx0aja"}
+{"time":"2025-04-27T01:45:17.529552379-03:00","level":"INFO","msg":"handler: started","stream_id":"d7rx0aja"}
+{"time":"2025-04-27T01:45:17.52962534-03:00","level":"INFO","msg":"sender: started","stream_id":"d7rx0aja"}
+{"time":"2025-04-27T01:45:17.772315678-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-27T01:49:16.335649947-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-27T01:49:16.335749521-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-27T01:49:17.124293781-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-27T01:49:17.294632159-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 324-325, summary, console lines 38-40","runtime_seconds":0.170259462}],"total_operations":1}}
+{"time":"2025-04-27T01:49:17.326259946-03:00","level":"INFO","msg":"stream: closing","id":"d7rx0aja"}
+{"time":"2025-04-27T01:49:17.326269262-03:00","level":"INFO","msg":"handler: closed","stream_id":"d7rx0aja"}
+{"time":"2025-04-27T01:49:17.326272996-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"d7rx0aja"}
+{"time":"2025-04-27T01:49:17.326278668-03:00","level":"INFO","msg":"sender: closed","stream_id":"d7rx0aja"}
+{"time":"2025-04-27T01:49:17.326428618-03:00","level":"INFO","msg":"stream: closed","id":"d7rx0aja"}

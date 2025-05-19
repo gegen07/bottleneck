@@ -1,0 +1,15 @@
+{"time":"2025-04-26T13:23:57.736103921-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/offline-run-20250426_132357-xm923l2e/logs/debug-core.log"}
+{"time":"2025-04-26T13:23:57.838836244-03:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-04-26T13:23:57.838893066-03:00","level":"INFO","msg":"created new stream","id":"xm923l2e"}
+{"time":"2025-04-26T13:23:57.838904978-03:00","level":"INFO","msg":"stream: started","id":"xm923l2e"}
+{"time":"2025-04-26T13:23:57.838919713-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"xm923l2e"}
+{"time":"2025-04-26T13:23:57.838981559-03:00","level":"INFO","msg":"sender: started","stream_id":"xm923l2e"}
+{"time":"2025-04-26T13:23:57.838992654-03:00","level":"INFO","msg":"handler: started","stream_id":"xm923l2e"}
+{"time":"2025-04-26T13:23:57.841513409-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-26T13:23:58.843305636-03:00","level":"INFO","msg":"stream: closing","id":"xm923l2e"}
+{"time":"2025-04-26T13:23:58.843322155-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-26T13:23:58.843357438-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-26T13:23:58.843415964-03:00","level":"INFO","msg":"handler: closed","stream_id":"xm923l2e"}
+{"time":"2025-04-26T13:23:58.843421628-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xm923l2e"}
+{"time":"2025-04-26T13:23:58.843460388-03:00","level":"INFO","msg":"sender: closed","stream_id":"xm923l2e"}
+{"time":"2025-04-26T13:23:58.843471322-03:00","level":"INFO","msg":"stream: closed","id":"xm923l2e"}

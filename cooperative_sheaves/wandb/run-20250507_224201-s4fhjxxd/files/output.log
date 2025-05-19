@@ -1,0 +1,26 @@
+ 40%|██████████████████████████████████████████████████████████████████████████████████▊                                                                                                                            | 4/10 [09:54<14:51, 148.62s/it]
+Fold 0 | Epochs: 1154 | Best epoch: 954
+Test acc: 0.9827
+Best val acc: 0.9833
+Fold 1 | Epochs: 1381 | Best epoch: 1181
+Test acc: 0.9855
+Best val acc: 0.9862
+Fold 2 | Epochs: 1071 | Best epoch: 871
+Test acc: 0.9840
+Best val acc: 0.9810
+Fold 3 | Epochs: 1707 | Best epoch: 1507
+Test acc: 0.9826
+Best val acc: 0.9858
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 203, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 101, in run_exp
+    train_loss, val_loss, tmp_test_loss] = test(model, data, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 61, in test
+    pred = logits[mask[fold]].sigmoid().squeeze(1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

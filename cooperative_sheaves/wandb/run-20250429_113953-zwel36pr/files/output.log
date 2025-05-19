@@ -1,0 +1,27 @@
+  0%|                                                                                                                                                                | 0/10 [00:00<?, ?it/s]/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/utils/sparse.py:277: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  adj = torch.sparse_csr_tensor(
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 16])
+Fold 0 | Epochs: 255 | Best epoch: 155
+Test acc: 0.4432
+Best val acc: 0.4424
+ 20%|██████████████████████████████▍                                                                                                                         | 2/10 [01:23<05:35, 41.96s/it]
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 16])
+Fold 1 | Epochs: 291 | Best epoch: 191
+Test acc: 0.4571
+Best val acc: 0.4560
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 16])
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 201, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 106, in run_exp
+    train(model, optimizer, data, fold)
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 44, in train
+    if data.name in ['minesweeper', 'tolokers', 'questions']:
+       ^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/data.py", line 554, in __getattr__
+    def __getattr__(self, key: str) -> Any:
+
+KeyboardInterrupt

@@ -1,0 +1,41 @@
+ 70%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                             | 7/10 [04:59<02:07, 42.55s/it]
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 0 | Epochs: 641 | Best epoch: 541
+Test acc: 0.4655
+Best val acc: 0.4849
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 1 | Epochs: 224 | Best epoch: 124
+Test acc: 0.4191
+Best val acc: 0.4245
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 2 | Epochs: 173 | Best epoch: 73
+Test acc: 0.4026
+Best val acc: 0.4063
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 3 | Epochs: 520 | Best epoch: 420
+Test acc: 0.4508
+Best val acc: 0.4643
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 4 | Epochs: 709 | Best epoch: 609
+Test acc: 0.4811
+Best val acc: 0.4970
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 5 | Epochs: 525 | Best epoch: 425
+Test acc: 0.4499
+Best val acc: 0.4730
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 6 | Epochs: 300 | Best epoch: 200
+Test acc: 0.4416
+Best val acc: 0.4637
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 7 | Epochs: 502 | Best epoch: 402
+Test acc: 0.4575
+Best val acc: 0.4643
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 8 | Epochs: 247 | Best epoch: 147
+Test acc: 0.4352
+Best val acc: 0.4344
+Data(x=[24492, 300], edge_index=[2, 93050], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 0])
+Fold 9 | Epochs: 228 | Best epoch: 128
+Test acc: 0.4303
+Best val acc: 0.4191

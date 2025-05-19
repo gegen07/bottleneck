@@ -1,0 +1,43 @@
+  0%|                                                                                                                                          | 0/10 [00:00<?, ?it/s]/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py:43: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at ../aten/src/ATen/native/IndexingUtils.h:27.)
+  out = model(data.x, data.random_walk_pe)[data.train_mask[fold]]
+/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py:48: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at ../aten/src/ATen/native/IndexingUtils.h:27.)
+  loss = F.cross_entropy(out.squeeze(0), data.y[data.train_mask[fold]].squeeze(0))
+/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/autograd/graph.py:825: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at ../aten/src/ATen/native/IndexingUtils.h:27.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py:65: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at ../aten/src/ATen/native/IndexingUtils.h:27.)
+  pred = logits[mask[fold]].squeeze(0).max(1)[1]
+/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py:66: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at ../aten/src/ATen/native/IndexingUtils.h:27.)
+  acc = pred.eq(data.y[mask[fold]].squeeze(0)).sum().item() / mask[fold].sum().item()
+/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py:67: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at ../aten/src/ATen/native/IndexingUtils.h:27.)
+  loss = F.cross_entropy(logits[mask[fold]].squeeze(0), data.y[mask[fold]].squeeze(0))
+Fold 0 | Epochs: 288 | Best epoch: 88
+Test acc: 0.8491
+Best val acc: 0.8781
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [01:50<00:00, 11.04s/it]
+Fold 1 | Epochs: 256 | Best epoch: 56
+Test acc: 0.8551
+Best val acc: 0.8744
+Fold 2 | Epochs: 251 | Best epoch: 51
+Test acc: 0.8793
+Best val acc: 0.8643
+Fold 3 | Epochs: 267 | Best epoch: 67
+Test acc: 0.8753
+Best val acc: 0.8681
+Fold 4 | Epochs: 277 | Best epoch: 77
+Test acc: 0.8531
+Best val acc: 0.8731
+Fold 5 | Epochs: 248 | Best epoch: 48
+Test acc: 0.8632
+Best val acc: 0.8706
+Fold 6 | Epochs: 247 | Best epoch: 47
+Test acc: 0.8511
+Best val acc: 0.8857
+Fold 7 | Epochs: 274 | Best epoch: 74
+Test acc: 0.8652
+Best val acc: 0.8769
+Fold 8 | Epochs: 267 | Best epoch: 67
+Test acc: 0.8612
+Best val acc: 0.8631
+Fold 9 | Epochs: 265 | Best epoch: 65
+Test acc: 0.8370
+Best val acc: 0.8631

@@ -1,0 +1,40 @@
+  0%|                                                                                                                                                                | 0/10 [00:00<?, ?it/s]/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/utils/sparse.py:277: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  adj = torch.sparse_csr_tensor(
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 8])
+Fold 0 | Epochs: 830 | Best epoch: 730
+Test acc: 0.5218
+Best val acc: 0.5229
+ 50%|███████████████████████████████████████████████████████████████████████████▌                                                                           | 5/10 [09:13<09:13, 110.70s/it]
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 8])
+Fold 1 | Epochs: 725 | Best epoch: 625
+Test acc: 0.5274
+Best val acc: 0.5274
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 8])
+Fold 2 | Epochs: 489 | Best epoch: 389
+Test acc: 0.5078
+Best val acc: 0.5174
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 8])
+Fold 3 | Epochs: 630 | Best epoch: 530
+Test acc: 0.5145
+Best val acc: 0.5200
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 8])
+Fold 4 | Epochs: 552 | Best epoch: 452
+Test acc: 0.5216
+Best val acc: 0.5314
+Data(x=[24492, 300], edge_index=[2, 186100], y=[24492], train_mask=[10, 24492], val_mask=[10, 24492], test_mask=[10, 24492], name='amazon_ratings', random_walk_pe=[24492, 8])
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 201, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 109, in run_exp
+    train_loss, val_loss, tmp_test_loss] = test(model, data, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 66, in test
+    out = F.log_softmax(logits[mask[fold]], dim=1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch/nn/functional.py", line 2220, in log_softmax
+    def log_softmax(
+
+KeyboardInterrupt

@@ -1,0 +1,52 @@
+
+  0%|         | 0/10 [00:00<?, ?it/s]
+
+ 10%| | 1/10 [01:17<11:33, 77.11s/it]
+Fold 0 | Epochs: 414 | Best epoch: 314
+Test acc: 0.6636
+Best val acc: 0.6681
+
+ 20%|▏| 2/10 [02:22<09:20, 70.08s/it]
+Fold 1 | Epochs: 352 | Best epoch: 252
+Test acc: 0.6604
+Best val acc: 0.6545
+
+ 30%|▎| 3/10 [03:50<09:09, 78.55s/it]
+Fold 2 | Epochs: 479 | Best epoch: 379
+Test acc: 0.6578
+Best val acc: 0.6537
+Data(x=[22662, 300], edge_index=[2, 32927], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+
+ 40%|▍| 4/10 [05:35<08:53, 88.96s/it]
+Test acc: 0.6652
+Best val acc: 0.6590
+
+ 50%|▌| 5/10 [07:11<07:37, 91.46s/it]
+Fold 4 | Epochs: 518 | Best epoch: 418
+Test acc: 0.6548
+Best val acc: 0.6643
+
+ 60%|▌| 6/10 [08:32<05:51, 87.94s/it]
+Fold 5 | Epochs: 438 | Best epoch: 338
+Test acc: 0.6444
+Best val acc: 0.6420
+
+ 70%|▋| 7/10 [09:53<04:16, 85.40s/it]
+Fold 6 | Epochs: 433 | Best epoch: 333
+Test acc: 0.6479
+Best val acc: 0.6461
+
+ 80%|▊| 8/10 [11:37<03:03, 91.62s/it]
+Fold 7 | Epochs: 567 | Best epoch: 467
+Test acc: 0.6714
+Best val acc: 0.6747
+
+ 90%|▉| 9/10 [13:02<01:29, 89.31s/it]
+Fold 8 | Epochs: 455 | Best epoch: 355
+Test acc: 0.6689
+Best val acc: 0.6653
+
+100%|█| 10/10 [13:55<00:00, 83.52s/it
+Fold 9 | Epochs: 286 | Best epoch: 186
+Test acc: 0.6460
+Best val acc: 0.6545

@@ -1,0 +1,16 @@
+{"time":"2025-05-07T23:11:23.257717234-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250507_231123-wewn4rz9/logs/debug-core.log"}
+{"time":"2025-05-07T23:11:23.527604743-03:00","level":"INFO","msg":"created new stream","id":"wewn4rz9"}
+{"time":"2025-05-07T23:11:23.527634999-03:00","level":"INFO","msg":"stream: started","id":"wewn4rz9"}
+{"time":"2025-05-07T23:11:23.527648372-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"wewn4rz9"}
+{"time":"2025-05-07T23:11:23.527734725-03:00","level":"INFO","msg":"sender: started","stream_id":"wewn4rz9"}
+{"time":"2025-05-07T23:11:23.527735773-03:00","level":"INFO","msg":"handler: started","stream_id":"wewn4rz9"}
+{"time":"2025-05-07T23:11:23.774040654-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T23:11:39.466532952-03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/andrerg00/cooperative_sheaf_tests/wewn4rz9/file_stream"}
+{"time":"2025-05-07T23:11:39.466576254-03:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/andrerg00/cooperative_sheaf_tests/wewn4rz9/file_stream: {\"error\":\"run cooperative_sheaf_tests/wewn4rz9 not found while streaming file\"}"}
+{"time":"2025-05-07T23:11:41.021759498-03:00","level":"INFO","msg":"stream: closing","id":"wewn4rz9"}
+{"time":"2025-05-07T23:11:41.021778715-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T23:11:41.021836014-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T23:11:41.170872524-03:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run wewn4rz9 was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-05-07T23:11:41.237420632-03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-07T23:11:41.237476757-03:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run cooperative_sheaf_tests/wewn4rz9 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-05-07T23:11:43.532152352-03:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run wewn4rz9 was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}

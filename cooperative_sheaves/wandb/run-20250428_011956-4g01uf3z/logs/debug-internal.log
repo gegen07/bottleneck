@@ -1,0 +1,16 @@
+{"time":"2025-04-28T01:19:56.57013513-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250428_011956-4g01uf3z/logs/debug-core.log"}
+{"time":"2025-04-28T01:19:56.825427722-03:00","level":"INFO","msg":"created new stream","id":"4g01uf3z"}
+{"time":"2025-04-28T01:19:56.825711971-03:00","level":"INFO","msg":"stream: started","id":"4g01uf3z"}
+{"time":"2025-04-28T01:19:56.825715731-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"4g01uf3z"}
+{"time":"2025-04-28T01:19:56.825718938-03:00","level":"INFO","msg":"sender: started","stream_id":"4g01uf3z"}
+{"time":"2025-04-28T01:19:56.825724398-03:00","level":"INFO","msg":"handler: started","stream_id":"4g01uf3z"}
+{"time":"2025-04-28T01:19:57.061053264-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-28T01:27:00.367512384-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-28T01:27:00.36755529-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-28T01:27:01.327499757-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.319961077,"progress":"2.6KB/2.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.319953204,"progress":"503B/503B"},{"desc":"uploading config.yaml","runtime_seconds":0.104091196,"progress":"2.1KB/2.1KB"}],"total_operations":3}}
+{"time":"2025-04-28T01:27:01.560096786-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-28T01:27:01.779237374-03:00","level":"INFO","msg":"stream: closing","id":"4g01uf3z"}
+{"time":"2025-04-28T01:27:01.77924923-03:00","level":"INFO","msg":"handler: closed","stream_id":"4g01uf3z"}
+{"time":"2025-04-28T01:27:01.779256033-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4g01uf3z"}
+{"time":"2025-04-28T01:27:01.779311479-03:00","level":"INFO","msg":"sender: closed","stream_id":"4g01uf3z"}
+{"time":"2025-04-28T01:27:01.779330683-03:00","level":"INFO","msg":"stream: closed","id":"4g01uf3z"}

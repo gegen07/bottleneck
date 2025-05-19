@@ -1,0 +1,16 @@
+{"time":"2025-04-26T23:53:39.354934855-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250426_235339-1zljhlgl/logs/debug-core.log"}
+{"time":"2025-04-26T23:53:39.61734204-03:00","level":"INFO","msg":"created new stream","id":"1zljhlgl"}
+{"time":"2025-04-26T23:53:39.617370463-03:00","level":"INFO","msg":"stream: started","id":"1zljhlgl"}
+{"time":"2025-04-26T23:53:39.617453741-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"1zljhlgl"}
+{"time":"2025-04-26T23:53:39.617507639-03:00","level":"INFO","msg":"sender: started","stream_id":"1zljhlgl"}
+{"time":"2025-04-26T23:53:39.617542863-03:00","level":"INFO","msg":"handler: started","stream_id":"1zljhlgl"}
+{"time":"2025-04-26T23:53:39.856569335-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-26T23:57:20.243526845-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-26T23:57:20.24357142-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-26T23:57:21.205594954-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.558452604,"progress":"2.5KB/2.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.381349152,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-26T23:57:21.54314526-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-26T23:57:21.888260486-03:00","level":"INFO","msg":"stream: closing","id":"1zljhlgl"}
+{"time":"2025-04-26T23:57:21.888274589-03:00","level":"INFO","msg":"handler: closed","stream_id":"1zljhlgl"}
+{"time":"2025-04-26T23:57:21.888282755-03:00","level":"INFO","msg":"sender: closed","stream_id":"1zljhlgl"}
+{"time":"2025-04-26T23:57:21.888281575-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1zljhlgl"}
+{"time":"2025-04-26T23:57:21.888336307-03:00","level":"INFO","msg":"stream: closed","id":"1zljhlgl"}

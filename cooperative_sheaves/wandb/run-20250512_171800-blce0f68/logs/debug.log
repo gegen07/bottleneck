@@ -1,0 +1,23 @@
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_setup.py:_flush():67] Configure stats pid to 4007643
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_setup.py:_flush():67] Loading settings from /home/alunos/.config/wandb/settings
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_setup.py:_flush():67] Loading settings from /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/settings
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250512_171800-blce0f68/logs/debug.log
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250512_171800-blce0f68/logs/debug-internal.log
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_init.py:init():781] calling init triggers
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'epochs': 500, 'lr': 0.001, 'weight_decay': 1e-07, 'sheaf_decay': 1e-07, 'early_stopping': 500, 'lr_decay_patience': 20, 'min_acc': 0.0, 'stop_strategy': 'acc', 'd': 2, 'layers': 3, 'normalised': True, 'deg_normalised': False, 'linear': False, 'hidden_channels': 256, 'input_dropout': 0.0, 'dropout': 0.0, 'left_weights': True, 'right_weights': True, 'add_lp': False, 'add_hp': False, 'use_act': True, 'second_linear': False, 'orth': 'householder', 'sheaf_act': 'tanh', 'edge_weights': False, 'sparse_learner': False, 'use_bias': True, 'dataset': 'oversquashing', 'seed': 43, 'cuda': 0, 'folds': 10, 'model': 'CoopSheaf', 'entity': '', 'evectors': 0, 'max_t': 1.0, 'int_method': None, 'step_size': 1, 'max_iters': 100, 'adjoint_method': 'adaptive_heun', 'adjoint': False, 'adjoint_step_size': 1, 'tol_scale': 1.0, 'tol_scale_adjoint': 1.0, 'max_nfe': 1000, 'no_early': False, 'earlystopxT': 3, 'max_test_steps': 100, 'num_bundles': 1, 'diffusion_time': 1, 'gnn_layers': 0, 'gnn_hidden': 64, 'pe_size': 0, 'sha': '9f35502221d65fc23a8d32265a43cdf7a5251dc7', 'graph_size': 12, 'input_dim': 10, 'output_dim': 10, 'device': device(type='cuda', index=0), '_wandb': {}}
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_init.py:init():809] starting backend
+2025-05-12 17:18:00,265 INFO    MainThread:4007643 [wandb_init.py:init():813] sending inform_init request
+2025-05-12 17:18:00,268 INFO    MainThread:4007643 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-12 17:18:00,268 INFO    MainThread:4007643 [wandb_init.py:init():823] backend started and connected
+2025-05-12 17:18:00,269 INFO    MainThread:4007643 [wandb_init.py:init():915] updated telemetry
+2025-05-12 17:18:00,272 INFO    MainThread:4007643 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-05-12 17:18:00,810 INFO    MainThread:4007643 [wandb_init.py:init():1014] starting run threads in backend
+2025-05-12 17:18:00,854 INFO    MainThread:4007643 [wandb_run.py:_console_start():2454] atexit reg
+2025-05-12 17:18:00,854 INFO    MainThread:4007643 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-05-12 17:18:00,854 INFO    MainThread:4007643 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-05-12 17:18:00,855 INFO    MainThread:4007643 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-05-12 17:18:00,855 INFO    MainThread:4007643 [wandb_init.py:init():1056] run started, returning control to user process
+2025-05-12 17:32:50,089 INFO    MsgRouterThr:4007643 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

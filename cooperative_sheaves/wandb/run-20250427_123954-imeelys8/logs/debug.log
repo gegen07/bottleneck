@@ -1,0 +1,29 @@
+2025-04-27 12:39:54,151 INFO    MainThread:4022902 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-27 12:39:54,151 INFO    MainThread:4022902 [wandb_setup.py:_flush():67] Configure stats pid to 4022902
+2025-04-27 12:39:54,151 INFO    MainThread:4022902 [wandb_setup.py:_flush():67] Loading settings from /home/alunos/.config/wandb/settings
+2025-04-27 12:39:54,151 INFO    MainThread:4022902 [wandb_setup.py:_flush():67] Loading settings from /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/settings
+2025-04-27 12:39:54,151 INFO    MainThread:4022902 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-27 12:39:54,151 INFO    MainThread:4022902 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_123954-imeelys8/logs/debug.log
+2025-04-27 12:39:54,151 INFO    MainThread:4022902 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_123954-imeelys8/logs/debug-internal.log
+2025-04-27 12:39:54,151 INFO    MainThread:4022902 [wandb_init.py:init():781] calling init triggers
+2025-04-27 12:39:54,152 INFO    MainThread:4022902 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'epochs': 1500, 'lr': 0.02, 'weight_decay': 1e-08, 'sheaf_decay': 1e-08, 'early_stopping': 100, 'lr_decay_patience': 20, 'min_acc': 0.0, 'stop_strategy': 'loss', 'd': 4, 'layers': 5, 'normalised': True, 'deg_normalised': False, 'linear': False, 'hidden_channels': 16, 'input_dropout': 0.0, 'dropout': 0.2, 'left_weights': True, 'right_weights': True, 'add_lp': False, 'add_hp': False, 'use_act': True, 'second_linear': False, 'orth': 'householder', 'sheaf_act': 'tanh', 'edge_weights': True, 'sparse_learner': True, 'use_bias': True, 'dataset': 'roman_empire', 'seed': 43, 'cuda': 0, 'folds': 10, 'model': 'CoopSheaf', 'entity': '', 'evectors': 0, 'max_t': 1.0, 'int_method': None, 'step_size': 1, 'max_iters': 100, 'adjoint_method': 'adaptive_heun', 'adjoint': False, 'adjoint_step_size': 1, 'tol_scale': 1.0, 'tol_scale_adjoint': 1.0, 'max_nfe': 1000, 'no_early': False, 'earlystopxT': 3, 'max_test_steps': 100, 'num_bundles': 1, 'diffusion_time': 1, 'gnn_layers': 5, 'gnn_hidden': 16, 'pe_size': 0, 'sha': 'd9e512df9b011f53410726f2925f45dcf2d31b3d', 'graph_size': 22662, 'input_dim': 300, 'output_dim': 18, 'device': device(type='cuda', index=0), '_wandb': {}}
+2025-04-27 12:39:54,152 INFO    MainThread:4022902 [wandb_init.py:init():809] starting backend
+2025-04-27 12:39:54,152 INFO    MainThread:4022902 [wandb_init.py:init():813] sending inform_init request
+2025-04-27 12:39:54,154 INFO    MainThread:4022902 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-27 12:39:54,154 INFO    MainThread:4022902 [wandb_init.py:init():823] backend started and connected
+2025-04-27 12:39:54,155 INFO    MainThread:4022902 [wandb_init.py:init():915] updated telemetry
+2025-04-27 12:39:54,157 INFO    MainThread:4022902 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-27 12:39:54,672 INFO    MainThread:4022902 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-27 12:39:54,713 INFO    MainThread:4022902 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-27 12:39:54,715 INFO    MainThread:4022902 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-27 12:39:54,715 INFO    MainThread:4022902 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-27 12:39:54,715 INFO    MainThread:4022902 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-27 12:39:54,716 INFO    MainThread:4022902 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-27 12:42:46,764 INFO    MainThread:4022902 [wandb_run.py:_finish():2189] finishing run andrerg00/cooperative_sheaf_tests/imeelys8
+2025-04-27 12:42:46,765 INFO    MainThread:4022902 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-27 12:42:46,765 INFO    MainThread:4022902 [wandb_run.py:_restore():2401] restore
+2025-04-27 12:42:46,765 INFO    MainThread:4022902 [wandb_run.py:_restore():2407] restore done
+2025-04-27 12:42:47,873 INFO    MainThread:4022902 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-27 12:42:47,873 INFO    MainThread:4022902 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-27 12:42:47,873 INFO    MainThread:4022902 [wandb_run.py:_footer_sync_info():4025] logging synced files

@@ -1,0 +1,50 @@
+wandb_version: 1
+
+d:
+  value: 3
+dataset:
+  value: amazon_ratings
+dropout:
+  value: 0.2
+early_stopping:
+  value: 200
+edge_weights:
+  value: false
+entity:
+  value: andrerg00
+epochs:
+  value: 2000
+gnn_hidden:
+  value: 32
+gnn_layers:
+  value: 0
+hidden_channels:
+  value: 32
+input_dropout:
+  value: 0.2
+layers:
+  value: 2
+left_weights:
+  value: true
+lr:
+  value: 0.02
+lr_decay_patience:
+  value: 20
+model:
+  value: CoopSheaf
+normalised:
+  value: true
+orth:
+  value: householder
+pe_size:
+  value: 0
+right_weights:
+  value: true
+sparse_learner:
+  value: true
+use_act:
+  value: true
+weight_decay:
+  value:
+  - 1.0e-07
+  - 1.0e-08

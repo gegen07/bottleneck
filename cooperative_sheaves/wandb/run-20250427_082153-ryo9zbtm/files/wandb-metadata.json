@@ -1,0 +1,174 @@
+{
+    "os": "Linux-6.5.0-41-generic-x86_64-with-glibc2.35",
+    "python": "CPython 3.11.9",
+    "heartbeatAt": "2025-04-27T11:21:53.460673",
+    "startedAt": "2025-04-27T11:21:53.070697",
+    "docker": null,
+    "args": [
+        "service",
+        "--debug",
+        "--port-filename",
+        "/tmp/tmp0vxgcnhu/port-3936566.txt",
+        "--pid",
+        "3936566"
+    ],
+    "state": "running",
+    "program": "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py",
+    "codePathLocal": "exp/run.py",
+    "codePath": "cooperative_sheaves/exp/run.py",
+    "git": {
+        "remote": "https://github.com/ML-FGV/neural-sheaf-diffusion.git",
+        "commit": "d9e512df9b011f53410726f2925f45dcf2d31b3d"
+    },
+    "email": "andrerg02@gmail.com",
+    "root": "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion",
+    "host": "erj1757",
+    "username": null,
+    "executable": "/home/alunos/Dados/.pyenv/versions/hsnn/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3468.0624583333333,
+        "min": 800.0,
+        "max": 4716.666666666667
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3456.707,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 2565.754,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3629.465,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 1151.89,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3805.727,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3712.625,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3532.091,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3899.975,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3892.844,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3900.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3470.012,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3999.982,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3996.527,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3900.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3900.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3700.345,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3700.006,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3698.652,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3697.043,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3729.637,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3683.571,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3700.39,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3710.256,
+            "min": 800.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 469077516288,
+            "used": 422520778752
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 134735994880
+    }
+}

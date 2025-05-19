@@ -1,0 +1,16 @@
+{"time":"2025-05-11T03:10:41.94920118-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250511_031041-ia6h25zk/logs/debug-core.log"}
+{"time":"2025-05-11T03:10:42.213942875-03:00","level":"INFO","msg":"created new stream","id":"ia6h25zk"}
+{"time":"2025-05-11T03:10:42.213982515-03:00","level":"INFO","msg":"stream: started","id":"ia6h25zk"}
+{"time":"2025-05-11T03:10:42.214033197-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ia6h25zk"}
+{"time":"2025-05-11T03:10:42.214052827-03:00","level":"INFO","msg":"sender: started","stream_id":"ia6h25zk"}
+{"time":"2025-05-11T03:10:42.214099465-03:00","level":"INFO","msg":"handler: started","stream_id":"ia6h25zk"}
+{"time":"2025-05-11T03:10:42.554656705-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-11T03:14:58.469625161-03:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/andrerg00/cooperative_sheaf_tests/ia6h25zk/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-05-11T03:17:36.62589923-03:00","level":"INFO","msg":"stream: closing","id":"ia6h25zk"}
+{"time":"2025-05-11T03:17:36.625919669-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-11T03:17:36.62597076-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-11T03:17:37.260420996-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-11T03:17:37.466455051-03:00","level":"INFO","msg":"handler: closed","stream_id":"ia6h25zk"}
+{"time":"2025-05-11T03:17:37.466482551-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ia6h25zk"}
+{"time":"2025-05-11T03:17:37.466515692-03:00","level":"INFO","msg":"sender: closed","stream_id":"ia6h25zk"}
+{"time":"2025-05-11T03:17:37.46652562-03:00","level":"INFO","msg":"stream: closed","id":"ia6h25zk"}

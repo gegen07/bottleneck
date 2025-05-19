@@ -1,0 +1,16 @@
+{"time":"2025-04-27T23:24:03.719045027-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_232403-48ntokpl/logs/debug-core.log"}
+{"time":"2025-04-27T23:24:03.975868009-03:00","level":"INFO","msg":"created new stream","id":"48ntokpl"}
+{"time":"2025-04-27T23:24:03.975890399-03:00","level":"INFO","msg":"stream: started","id":"48ntokpl"}
+{"time":"2025-04-27T23:24:03.975912965-03:00","level":"INFO","msg":"sender: started","stream_id":"48ntokpl"}
+{"time":"2025-04-27T23:24:03.975911469-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"48ntokpl"}
+{"time":"2025-04-27T23:24:03.975923984-03:00","level":"INFO","msg":"handler: started","stream_id":"48ntokpl"}
+{"time":"2025-04-27T23:24:04.263825915-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-27T23:30:14.195577491-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-27T23:30:14.195659596-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-27T23:30:15.15710224-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.564380659,"progress":"2.7KB/2.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.382703423,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-27T23:30:15.510133731-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-27T23:30:16.405650865-03:00","level":"INFO","msg":"stream: closing","id":"48ntokpl"}
+{"time":"2025-04-27T23:30:16.405659366-03:00","level":"INFO","msg":"handler: closed","stream_id":"48ntokpl"}
+{"time":"2025-04-27T23:30:16.405663503-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"48ntokpl"}
+{"time":"2025-04-27T23:30:16.405678012-03:00","level":"INFO","msg":"sender: closed","stream_id":"48ntokpl"}
+{"time":"2025-04-27T23:30:16.405703074-03:00","level":"INFO","msg":"stream: closed","id":"48ntokpl"}

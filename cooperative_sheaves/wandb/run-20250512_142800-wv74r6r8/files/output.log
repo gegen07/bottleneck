@@ -1,0 +1,32 @@
+ 20%|████████████████████▊                                                                                   | 2/10 [05:39<22:36, 169.60s/it]
+Fold 0 | Epochs: 499 | Best epoch: 491
+Best train loss: 0.1050 | Best test loss: 0.3671
+Fold 1 | Epochs: 499 | Best epoch: 499
+Best train loss: 0.1048 | Best test loss: 0.3835
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 132, in <module>
+    train_loss, best_test_loss = run_exp(wandb.config, train_loader, test_loader, edge_index, fold)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 58, in run_exp
+    train_loss = train(model, optimizer, train_data, edge_index)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run_synth.py", line 20, in train
+    data = data.to(args.device)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/data.py", line 362, in to
+    return self.apply(
+           ^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/data.py", line 342, in apply
+    store.apply(func, *args)
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/storage.py", line 201, in apply
+    self[key] = recursive_apply(value, func)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/storage.py", line 897, in recursive_apply
+    return func(data)
+           ^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/data/data.py", line 363, in <lambda>
+    lambda x: x.to(device=device, non_blocking=non_blocking), *args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

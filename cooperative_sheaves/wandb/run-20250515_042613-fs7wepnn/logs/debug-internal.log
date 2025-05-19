@@ -1,0 +1,15 @@
+{"time":"2025-05-15T04:26:13.523730566-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250515_042613-fs7wepnn/logs/debug-core.log"}
+{"time":"2025-05-15T04:26:13.787425672-03:00","level":"INFO","msg":"created new stream","id":"fs7wepnn"}
+{"time":"2025-05-15T04:26:13.787444097-03:00","level":"INFO","msg":"stream: started","id":"fs7wepnn"}
+{"time":"2025-05-15T04:26:13.787508351-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"fs7wepnn"}
+{"time":"2025-05-15T04:26:13.787512526-03:00","level":"INFO","msg":"handler: started","stream_id":"fs7wepnn"}
+{"time":"2025-05-15T04:26:13.787542764-03:00","level":"INFO","msg":"sender: started","stream_id":"fs7wepnn"}
+{"time":"2025-05-15T04:26:13.998798347-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T04:29:06.04674702-03:00","level":"INFO","msg":"stream: closing","id":"fs7wepnn"}
+{"time":"2025-05-15T04:29:06.046770647-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T04:29:06.046798576-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T04:29:06.665852599-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T04:29:07.115474744-03:00","level":"INFO","msg":"handler: closed","stream_id":"fs7wepnn"}
+{"time":"2025-05-15T04:29:07.115496632-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fs7wepnn"}
+{"time":"2025-05-15T04:29:07.115509382-03:00","level":"INFO","msg":"sender: closed","stream_id":"fs7wepnn"}
+{"time":"2025-05-15T04:29:07.115532955-03:00","level":"INFO","msg":"stream: closed","id":"fs7wepnn"}

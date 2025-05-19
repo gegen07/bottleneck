@@ -1,0 +1,17 @@
+{"time":"2025-05-10T05:06:01.450119955-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250510_050601-rkdsfqin/logs/debug-core.log"}
+{"time":"2025-05-10T05:06:01.708926374-03:00","level":"INFO","msg":"created new stream","id":"rkdsfqin"}
+{"time":"2025-05-10T05:06:01.708963565-03:00","level":"INFO","msg":"stream: started","id":"rkdsfqin"}
+{"time":"2025-05-10T05:06:01.709014699-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"rkdsfqin"}
+{"time":"2025-05-10T05:06:01.709033634-03:00","level":"INFO","msg":"sender: started","stream_id":"rkdsfqin"}
+{"time":"2025-05-10T05:06:01.709027486-03:00","level":"INFO","msg":"handler: started","stream_id":"rkdsfqin"}
+{"time":"2025-05-10T05:06:01.94953624-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T06:02:12.436319154-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/andrerg00/cooperative_sheaf_tests/rkdsfqin/file_stream\": dial tcp: lookup api.wandb.ai on 127.0.0.53:53: read udp 127.0.0.1:45010->127.0.0.53:53: i/o timeout"}
+{"time":"2025-05-10T06:45:31.363573689-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T06:45:31.363631125-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T06:45:32.324252359-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.564221339,"progress":"508B/508B"},{"desc":"uploading output.log","runtime_seconds":0.564214073,"progress":"1.2KB/1.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.392051911,"progress":"2.1KB/2.1KB"}],"total_operations":3}}
+{"time":"2025-05-10T06:45:32.676134149-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-10T06:45:32.877250062-03:00","level":"INFO","msg":"stream: closing","id":"rkdsfqin"}
+{"time":"2025-05-10T06:45:32.877258525-03:00","level":"INFO","msg":"handler: closed","stream_id":"rkdsfqin"}
+{"time":"2025-05-10T06:45:32.877262649-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rkdsfqin"}
+{"time":"2025-05-10T06:45:32.877269749-03:00","level":"INFO","msg":"sender: closed","stream_id":"rkdsfqin"}
+{"time":"2025-05-10T06:45:32.87730302-03:00","level":"INFO","msg":"stream: closed","id":"rkdsfqin"}

@@ -1,0 +1,41 @@
+ 70%|████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                            | 7/10 [1:04:21<21:44, 434.77s/it]
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 0 | Epochs: 901 | Best epoch: 801
+Test acc: 0.8405
+Best val acc: 0.8497
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 1 | Epochs: 706 | Best epoch: 606
+Test acc: 0.8494
+Best val acc: 0.8485
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 2 | Epochs: 475 | Best epoch: 375
+Test acc: 0.8437
+Best val acc: 0.8383
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 3 | Epochs: 659 | Best epoch: 559
+Test acc: 0.8416
+Best val acc: 0.8422
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 4 | Epochs: 400 | Best epoch: 300
+Test acc: 0.8211
+Best val acc: 0.7996
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 5 | Epochs: 407 | Best epoch: 307
+Test acc: 0.8068
+Best val acc: 0.8249
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 6 | Epochs: 268 | Best epoch: 168
+Test acc: 0.8206
+Best val acc: 0.8042
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 7 | Epochs: 438 | Best epoch: 338
+Test acc: 0.8203
+Best val acc: 0.8384
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 8 | Epochs: 340 | Best epoch: 240
+Test acc: 0.8249
+Best val acc: 0.8197
+Data(x=[11758, 10], edge_index=[2, 1038000], y=[11758], train_mask=[10, 11758], val_mask=[10, 11758], test_mask=[10, 11758], name='tolokers', random_walk_pe=[11758, 0])
+Fold 9 | Epochs: 743 | Best epoch: 643
+Test acc: 0.8433
+Best val acc: 0.8450

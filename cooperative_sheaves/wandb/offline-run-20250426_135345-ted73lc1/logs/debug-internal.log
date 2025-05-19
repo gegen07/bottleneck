@@ -1,0 +1,15 @@
+{"time":"2025-04-26T13:53:45.77763792-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/offline-run-20250426_135345-ted73lc1/logs/debug-core.log"}
+{"time":"2025-04-26T13:53:45.880536437-03:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-04-26T13:53:45.880691603-03:00","level":"INFO","msg":"created new stream","id":"ted73lc1"}
+{"time":"2025-04-26T13:53:45.880706736-03:00","level":"INFO","msg":"stream: started","id":"ted73lc1"}
+{"time":"2025-04-26T13:53:45.880717537-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ted73lc1"}
+{"time":"2025-04-26T13:53:45.880724007-03:00","level":"INFO","msg":"handler: started","stream_id":"ted73lc1"}
+{"time":"2025-04-26T13:53:45.880743154-03:00","level":"INFO","msg":"sender: started","stream_id":"ted73lc1"}
+{"time":"2025-04-26T13:53:45.882927129-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-26T13:53:48.885944917-03:00","level":"INFO","msg":"stream: closing","id":"ted73lc1"}
+{"time":"2025-04-26T13:53:48.885970992-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-26T13:53:48.886004291-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-26T13:53:48.886077737-03:00","level":"INFO","msg":"handler: closed","stream_id":"ted73lc1"}
+{"time":"2025-04-26T13:53:48.886084959-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ted73lc1"}
+{"time":"2025-04-26T13:53:48.88609628-03:00","level":"INFO","msg":"sender: closed","stream_id":"ted73lc1"}
+{"time":"2025-04-26T13:53:48.886118606-03:00","level":"INFO","msg":"stream: closed","id":"ted73lc1"}

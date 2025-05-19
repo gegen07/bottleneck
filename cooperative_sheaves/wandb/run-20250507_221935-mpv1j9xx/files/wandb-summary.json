@@ -1,0 +1,1 @@
+{"fold0_tmp_test_acc":0.98259,"best_epoch":1177,"best_test_acc":0.98376,"_step":1377,"fold0_train_loss":0.021950390189886093,"best_val_acc":0.9820289999999999,"fold0_train_acc":0.99996425,"fold0_tmp_test_loss":0.1385936290025711,"fold0_val_loss":0.15994049608707428,"_wandb":{"runtime":152},"fold0_val_acc":0.977646,"_timestamp":1.7466673248071146e+09,"_runtime":149.217126111}

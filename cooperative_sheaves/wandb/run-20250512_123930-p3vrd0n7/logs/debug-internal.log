@@ -1,0 +1,17 @@
+{"time":"2025-05-12T12:39:30.808746641-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250512_123930-p3vrd0n7/logs/debug-core.log"}
+{"time":"2025-05-12T12:39:31.070873579-03:00","level":"INFO","msg":"created new stream","id":"p3vrd0n7"}
+{"time":"2025-05-12T12:39:31.070906508-03:00","level":"INFO","msg":"stream: started","id":"p3vrd0n7"}
+{"time":"2025-05-12T12:39:31.070973821-03:00","level":"INFO","msg":"handler: started","stream_id":"p3vrd0n7"}
+{"time":"2025-05-12T12:39:31.070973778-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"p3vrd0n7"}
+{"time":"2025-05-12T12:39:31.071268465-03:00","level":"INFO","msg":"sender: started","stream_id":"p3vrd0n7"}
+{"time":"2025-05-12T12:39:31.362339576-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-12T12:50:01.409798893-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-12T12:50:13.567617303-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-12T12:50:13.567714133-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-12T12:50:14.448047565-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-12T12:50:14.528709259-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 508-509, summary, console lines 0-0","runtime_seconds":0.080558082}],"total_operations":1}}
+{"time":"2025-05-12T12:50:14.971578801-03:00","level":"INFO","msg":"stream: closing","id":"p3vrd0n7"}
+{"time":"2025-05-12T12:50:14.971586667-03:00","level":"INFO","msg":"handler: closed","stream_id":"p3vrd0n7"}
+{"time":"2025-05-12T12:50:14.971591185-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"p3vrd0n7"}
+{"time":"2025-05-12T12:50:14.971631364-03:00","level":"INFO","msg":"sender: closed","stream_id":"p3vrd0n7"}
+{"time":"2025-05-12T12:50:14.971637097-03:00","level":"INFO","msg":"stream: closed","id":"p3vrd0n7"}

@@ -1,0 +1,545 @@
+2025-04-27 10:16:39,098 INFO    StreamThr :3976413 [internal.py:wandb_internal():83] W&B internal server running at pid: 3976413, started at: 2025-04-27 10:16:39.098426
+2025-04-27 10:16:39,100 INFO    WriterThread:3976413 [datastore.py:open_for_write():87] open: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/run-23n2jmbr.wandb
+2025-04-27 10:16:39,462 INFO    SenderThread:3976413 [dir_watcher.py:__init__():211] watching files in: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files
+2025-04-27 10:16:39,462 INFO    SenderThread:3976413 [sender.py:_start_run_threads():1134] run started: 23n2jmbr with start time 1745759799.097558
+2025-04-27 10:16:39,475 INFO    HandlerThread:3976413 [system_monitor.py:start():187] Starting system monitor
+2025-04-27 10:16:39,475 INFO    SystemMonitor:3976413 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-04-27 10:16:39,475 INFO    HandlerThread:3976413 [system_monitor.py:probe():207] Collecting system info
+2025-04-27 10:16:39,477 INFO    SystemMonitor:3976413 [interfaces.py:start():186] Started cpu monitoring
+2025-04-27 10:16:39,477 INFO    SystemMonitor:3976413 [interfaces.py:start():186] Started disk monitoring
+2025-04-27 10:16:39,478 INFO    SystemMonitor:3976413 [interfaces.py:start():186] Started gpu monitoring
+2025-04-27 10:16:39,478 INFO    SystemMonitor:3976413 [interfaces.py:start():186] Started memory monitoring
+2025-04-27 10:16:39,478 INFO    SystemMonitor:3976413 [interfaces.py:start():186] Started network monitoring
+2025-04-27 10:16:39,490 INFO    HandlerThread:3976413 [system_monitor.py:probe():217] Finished collecting system info
+2025-04-27 10:16:39,490 INFO    HandlerThread:3976413 [system_monitor.py:probe():220] Publishing system info
+2025-04-27 10:16:39,490 INFO    HandlerThread:3976413 [system_monitor.py:probe():222] Finished publishing system info
+2025-04-27 10:16:39,492 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2025-04-27 10:16:40,107 INFO    wandb-upload_0:3976413 [upload_job.py:push():130] Uploaded file /tmp/tmpqjkx5p33wandb/ruvvpm2h-wandb-metadata.json
+2025-04-27 10:16:40,463 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_created():272] file/dir created: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:16:40,463 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_created():272] file/dir created: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/requirements.txt
+2025-04-27 10:16:40,463 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_created():272] file/dir created: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-metadata.json
+2025-04-27 10:16:40,497 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:40,644 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:40,791 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:40,938 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:41,085 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:41,232 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:41,380 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:41,463 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_created():272] file/dir created: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:41,527 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:41,673 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:41,820 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:41,967 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:42,114 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:42,261 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:42,408 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:42,463 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:42,463 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:16:42,555 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:42,702 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:42,850 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:42,996 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:43,143 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:43,290 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:43,437 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:43,464 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:43,585 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:43,732 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:43,879 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:44,025 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:44,172 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:44,319 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:44,464 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:44,466 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:44,613 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:44,760 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:44,907 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:45,054 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:45,201 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:45,348 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:45,464 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:45,495 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:45,643 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:45,789 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:45,937 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:46,084 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:46,231 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:46,379 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:46,464 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:46,526 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:46,673 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:46,820 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:46,967 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:47,114 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:47,262 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:47,409 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:47,465 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:47,556 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:47,705 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:47,851 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:47,998 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:48,146 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:48,293 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:48,440 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:48,465 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:48,587 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:48,734 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:48,882 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:49,029 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:49,176 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:49,323 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:49,465 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:49,471 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:49,618 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:49,766 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:49,912 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:50,060 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:50,207 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:50,354 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:50,465 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:50,503 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:50,649 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:50,797 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:50,944 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:51,092 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:51,239 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:51,387 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:51,466 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:51,535 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:51,683 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:51,831 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:51,978 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:52,125 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:52,273 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:52,421 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:52,466 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:52,568 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:52,716 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:52,864 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:53,011 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:53,159 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:53,307 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:53,454 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:53,466 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:53,644 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:53,750 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:53,898 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:54,045 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:54,193 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:54,340 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:54,467 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:54,488 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:54,787 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:54,788 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:54,932 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:55,080 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:55,227 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:55,375 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:55,467 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:55,523 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:55,671 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:55,819 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:55,967 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:56,114 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:56,262 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:56,410 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:56,467 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:56,558 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:56,706 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:56,854 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:57,002 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:57,150 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:57,298 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:57,446 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:57,467 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:57,594 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:57,741 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:57,889 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:58,038 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:58,185 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:58,333 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:58,467 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:58,481 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:58,629 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:58,778 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:58,925 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:59,073 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:59,221 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:59,369 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:59,467 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:16:59,516 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:59,665 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:59,813 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:16:59,961 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:00,110 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:00,257 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:00,405 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:00,468 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:00,553 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:00,701 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:00,849 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:00,997 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:01,145 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:01,293 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:01,441 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:01,468 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:01,589 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:01,736 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:01,884 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:02,033 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:02,181 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:02,328 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:02,468 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:02,476 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:02,624 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:02,772 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:02,920 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:03,068 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:03,216 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:03,364 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:03,468 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:03,512 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:03,660 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:03,809 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:03,955 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:04,103 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:04,252 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:04,399 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:04,469 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:04,547 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:04,695 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:04,844 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:04,992 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:05,140 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:05,288 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:05,436 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:05,469 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:05,584 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:05,733 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:05,881 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:06,029 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:06,178 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:06,327 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:06,469 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:06,475 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:06,623 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:06,772 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:06,921 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:07,069 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:07,218 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:07,366 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:07,470 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:07,558 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:07,663 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:07,812 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:07,960 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:08,109 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:08,257 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:08,406 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:08,470 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:08,554 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:08,703 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:08,851 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:09,000 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:09,149 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:09,467 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:09,469 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:09,470 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:09,470 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/config.yaml
+2025-04-27 10:17:09,785 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:09,787 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:09,892 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:10,040 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:10,189 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:10,338 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:10,470 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:10,487 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:10,635 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:10,784 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:10,932 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:11,080 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:11,229 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:11,378 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:11,470 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:11,526 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:11,675 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:11,823 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:11,972 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:12,121 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:12,269 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:12,418 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:12,471 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:12,567 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:12,715 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:12,864 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:13,013 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:13,161 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:13,310 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:13,459 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:13,471 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:13,607 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:13,756 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:13,905 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:14,053 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:14,202 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:14,350 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:14,471 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:14,499 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:14,648 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:14,797 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:14,945 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:15,094 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:15,242 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:15,391 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:15,471 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:15,540 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:15,688 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:15,837 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:15,986 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:16,134 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:16,283 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:16,431 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:16,471 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:16,580 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:16,730 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:16,878 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:17,026 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:17,175 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:17,324 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:17,472 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:17,473 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:17,622 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:17,770 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:17,918 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:18,067 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:18,216 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:18,364 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:18,472 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:18,513 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:18,661 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:18,811 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:18,959 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:19,108 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:19,257 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:19,405 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:19,472 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:19,554 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:19,703 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:19,851 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:20,000 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:20,149 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:20,298 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:20,446 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:20,472 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:20,595 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:20,744 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:20,893 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:21,041 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:21,190 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:21,339 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:21,473 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:21,525 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:21,636 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:21,785 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:21,934 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:22,082 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:22,231 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:22,380 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:22,473 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:22,529 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:22,678 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:22,826 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:22,975 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:23,123 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:23,272 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:23,421 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:23,473 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:23,569 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:23,718 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:23,867 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:24,016 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:24,165 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:24,313 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:24,462 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:24,473 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:24,786 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:24,787 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:24,908 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:25,057 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:25,206 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:25,355 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:25,474 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:25,503 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:25,652 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:25,800 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:25,949 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:26,098 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:26,247 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:26,395 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:26,474 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:26,545 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:26,693 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:26,842 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:26,990 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:27,140 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:27,288 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:27,437 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:27,474 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:27,587 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:27,734 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:27,883 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:28,032 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:28,180 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:28,329 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:28,474 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:28,477 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:28,626 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:28,775 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:28,924 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:29,073 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:29,222 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:29,370 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:29,475 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:29,518 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:29,667 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:29,816 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:29,965 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:30,114 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:30,262 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:30,411 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:30,475 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:30,560 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:30,709 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:30,857 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:31,006 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:31,155 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:31,305 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:31,453 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:31,475 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:31,602 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:31,751 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:31,900 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:32,049 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:32,198 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:32,346 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:32,475 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:32,495 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:32,644 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:32,793 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:32,942 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:33,090 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:33,239 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:33,389 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:33,476 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:33,538 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:33,686 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:33,836 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:33,986 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:34,136 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:34,137 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:17:34,476 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:17:36,476 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:18:46,529 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:18:47,492 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:18:48,492 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:20:26,081 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:20:26,513 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:20:28,513 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:22:06,445 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:22:06,532 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:22:08,532 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:22:56,491 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:22:56,541 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:22:58,541 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:24:14,500 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:24:14,557 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:24:16,557 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:25:15,480 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:25:15,570 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:25:18,571 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:26:48,216 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:26:48,589 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:26:50,590 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:27:40,628 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:27:41,600 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:27:42,600 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:28:48,781 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:28:48,782 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:28:48,782 INFO    SenderThread:3976413 [sender.py:send_exit():554] handling exit code: 0
+2025-04-27 10:28:48,782 INFO    SenderThread:3976413 [sender.py:send_exit():556] handling runtime: 729
+2025-04-27 10:28:48,783 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:28:48,783 INFO    SenderThread:3976413 [sender.py:send_exit():562] send defer
+2025-04-27 10:28:48,783 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 0
+2025-04-27 10:28:48,783 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 0
+2025-04-27 10:28:48,783 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 1
+2025-04-27 10:28:48,783 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 1
+2025-04-27 10:28:48,783 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 1
+2025-04-27 10:28:48,783 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 2
+2025-04-27 10:28:48,783 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 2
+2025-04-27 10:28:48,783 INFO    HandlerThread:3976413 [system_monitor.py:finish():196] Stopping system monitor
+2025-04-27 10:28:48,784 INFO    HandlerThread:3976413 [interfaces.py:finish():198] Joined cpu monitor
+2025-04-27 10:28:48,784 INFO    HandlerThread:3976413 [interfaces.py:finish():198] Joined disk monitor
+2025-04-27 10:28:48,845 INFO    HandlerThread:3976413 [interfaces.py:finish():198] Joined gpu monitor
+2025-04-27 10:28:48,845 INFO    HandlerThread:3976413 [interfaces.py:finish():198] Joined memory monitor
+2025-04-27 10:28:48,845 INFO    HandlerThread:3976413 [interfaces.py:finish():198] Joined network monitor
+2025-04-27 10:28:48,846 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 2
+2025-04-27 10:28:48,846 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 3
+2025-04-27 10:28:48,846 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 3
+2025-04-27 10:28:48,846 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 3
+2025-04-27 10:28:48,846 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 4
+2025-04-27 10:28:48,846 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 4
+2025-04-27 10:28:48,847 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 4
+2025-04-27 10:28:48,847 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 5
+2025-04-27 10:28:48,847 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 5
+2025-04-27 10:28:48,847 INFO    SenderThread:3976413 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2025-04-27 10:28:48,847 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 5
+2025-04-27 10:28:48,847 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 6
+2025-04-27 10:28:48,847 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 6
+2025-04-27 10:28:48,848 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 6
+2025-04-27 10:28:49,042 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 7
+2025-04-27 10:28:49,042 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 7
+2025-04-27 10:28:49,042 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 7
+2025-04-27 10:28:49,614 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:28:49,614 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/config.yaml
+2025-04-27 10:28:49,901 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 8
+2025-04-27 10:28:49,901 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 8
+2025-04-27 10:28:49,902 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 8
+2025-04-27 10:28:49,902 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 9
+2025-04-27 10:28:49,902 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 9
+2025-04-27 10:28:49,902 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 9
+2025-04-27 10:28:49,902 INFO    SenderThread:3976413 [dir_watcher.py:finish():359] shutting down directory watcher
+2025-04-27 10:28:50,614 INFO    Thread-12 :3976413 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:28:50,615 INFO    SenderThread:3976413 [dir_watcher.py:finish():389] scan: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files
+2025-04-27 10:28:50,615 INFO    SenderThread:3976413 [dir_watcher.py:finish():403] scan save: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log output.log
+2025-04-27 10:28:50,615 INFO    SenderThread:3976413 [dir_watcher.py:finish():403] scan save: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json wandb-summary.json
+2025-04-27 10:28:50,615 INFO    SenderThread:3976413 [dir_watcher.py:finish():403] scan save: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/config.yaml config.yaml
+2025-04-27 10:28:50,616 INFO    SenderThread:3976413 [dir_watcher.py:finish():403] scan save: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/requirements.txt requirements.txt
+2025-04-27 10:28:50,618 INFO    SenderThread:3976413 [dir_watcher.py:finish():403] scan save: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-metadata.json wandb-metadata.json
+2025-04-27 10:28:50,619 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 10
+2025-04-27 10:28:50,620 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 10
+2025-04-27 10:28:50,620 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 10
+2025-04-27 10:28:50,620 INFO    SenderThread:3976413 [file_pusher.py:finish():169] shutting down file pusher
+2025-04-27 10:28:51,202 INFO    wandb-upload_2:3976413 [upload_job.py:push():130] Uploaded file /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/config.yaml
+2025-04-27 10:28:51,210 INFO    wandb-upload_1:3976413 [upload_job.py:push():130] Uploaded file /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/wandb-summary.json
+2025-04-27 10:28:51,218 INFO    wandb-upload_3:3976413 [upload_job.py:push():130] Uploaded file /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/requirements.txt
+2025-04-27 10:28:51,218 INFO    wandb-upload_0:3976413 [upload_job.py:push():130] Uploaded file /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/files/output.log
+2025-04-27 10:28:51,418 INFO    Thread-11 (_thread_body):3976413 [sender.py:transition_state():582] send defer: 11
+2025-04-27 10:28:51,418 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 11
+2025-04-27 10:28:51,419 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 11
+2025-04-27 10:28:51,419 INFO    SenderThread:3976413 [file_pusher.py:join():175] waiting for file pusher
+2025-04-27 10:28:51,419 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 12
+2025-04-27 10:28:51,419 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 12
+2025-04-27 10:28:51,419 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 12
+2025-04-27 10:28:51,419 INFO    SenderThread:3976413 [file_stream.py:finish():601] file stream finish called
+2025-04-27 10:28:52,305 INFO    SenderThread:3976413 [file_stream.py:finish():605] file stream finish is done
+2025-04-27 10:28:52,306 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 13
+2025-04-27 10:28:52,306 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 13
+2025-04-27 10:28:52,306 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 13
+2025-04-27 10:28:52,306 INFO    SenderThread:3976413 [sender.py:transition_state():582] send defer: 14
+2025-04-27 10:28:52,306 INFO    HandlerThread:3976413 [handler.py:handle_request_defer():188] handle defer: 14
+2025-04-27 10:28:52,307 INFO    SenderThread:3976413 [sender.py:send_request_defer():578] handle sender defer: 14
+2025-04-27 10:28:52,309 INFO    HandlerThread:3976413 [handler.py:finish():897] shutting down handler
+2025-04-27 10:28:53,308 INFO    WriterThread:3976413 [datastore.py:close():296] close: /home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250427_101639-23n2jmbr/run-23n2jmbr.wandb
+2025-04-27 10:28:53,308 INFO    SenderThread:3976413 [sender.py:finish():1584] shutting down sender
+2025-04-27 10:28:53,308 INFO    SenderThread:3976413 [file_pusher.py:finish():169] shutting down file pusher
+2025-04-27 10:28:53,308 INFO    SenderThread:3976413 [file_pusher.py:join():175] waiting for file pusher

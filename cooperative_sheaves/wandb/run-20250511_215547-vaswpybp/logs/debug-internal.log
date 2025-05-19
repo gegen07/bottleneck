@@ -1,0 +1,17 @@
+{"time":"2025-05-11T21:55:47.883072387-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250511_215547-vaswpybp/logs/debug-core.log"}
+{"time":"2025-05-11T21:55:48.145535774-03:00","level":"INFO","msg":"created new stream","id":"vaswpybp"}
+{"time":"2025-05-11T21:55:48.145575868-03:00","level":"INFO","msg":"stream: started","id":"vaswpybp"}
+{"time":"2025-05-11T21:55:48.145605331-03:00","level":"INFO","msg":"sender: started","stream_id":"vaswpybp"}
+{"time":"2025-05-11T21:55:48.145607985-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"vaswpybp"}
+{"time":"2025-05-11T21:55:48.145659682-03:00","level":"INFO","msg":"handler: started","stream_id":"vaswpybp"}
+{"time":"2025-05-11T21:55:48.287878767-03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-11T21:55:48.287942529-03:00","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"entity your_entity_name not found during upsertBucket\",\"path\":[\"upsertBucket\"]}]}"}
+{"time":"2025-05-11T21:55:49.289842266-03:00","level":"INFO","msg":"stream: closing","id":"vaswpybp"}
+{"time":"2025-05-11T21:55:49.289918233-03:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-05-11T21:55:49.479796634-03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-11T21:55:49.47985351-03:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"entity your_entity_name not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-05-11T21:55:49.480114579-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-11T21:55:49.480139393-03:00","level":"INFO","msg":"handler: closed","stream_id":"vaswpybp"}
+{"time":"2025-05-11T21:55:49.48014981-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vaswpybp"}
+{"time":"2025-05-11T21:55:49.48017794-03:00","level":"INFO","msg":"sender: closed","stream_id":"vaswpybp"}
+{"time":"2025-05-11T21:55:49.480181281-03:00","level":"INFO","msg":"stream: closed","id":"vaswpybp"}

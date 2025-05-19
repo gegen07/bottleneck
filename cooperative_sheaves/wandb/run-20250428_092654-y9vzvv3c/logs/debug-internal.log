@@ -1,0 +1,15 @@
+{"time":"2025-04-28T09:26:54.113545348-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250428_092654-y9vzvv3c/logs/debug-core.log"}
+{"time":"2025-04-28T09:26:54.3684552-03:00","level":"INFO","msg":"created new stream","id":"y9vzvv3c"}
+{"time":"2025-04-28T09:26:54.368482475-03:00","level":"INFO","msg":"stream: started","id":"y9vzvv3c"}
+{"time":"2025-04-28T09:26:54.368538296-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"y9vzvv3c"}
+{"time":"2025-04-28T09:26:54.36857149-03:00","level":"INFO","msg":"handler: started","stream_id":"y9vzvv3c"}
+{"time":"2025-04-28T09:26:54.368580534-03:00","level":"INFO","msg":"sender: started","stream_id":"y9vzvv3c"}
+{"time":"2025-04-28T09:26:54.571769222-03:00","level":"INFO","msg":"stream: closing","id":"y9vzvv3c"}
+{"time":"2025-04-28T09:26:54.692877087-03:00","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-04-28T09:26:54.885933814-03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-28T09:26:54.886018427-03:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /cooperative_sheaf_tests not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-04-28T09:26:54.88630829-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-28T09:26:54.886338712-03:00","level":"INFO","msg":"handler: closed","stream_id":"y9vzvv3c"}
+{"time":"2025-04-28T09:26:54.886345588-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"y9vzvv3c"}
+{"time":"2025-04-28T09:26:54.886378607-03:00","level":"INFO","msg":"sender: closed","stream_id":"y9vzvv3c"}
+{"time":"2025-04-28T09:26:54.886383574-03:00","level":"INFO","msg":"stream: closed","id":"y9vzvv3c"}

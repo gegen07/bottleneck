@@ -1,0 +1,1 @@
+{"fold0_val_loss":NaN,"_wandb":{"runtime":84},"fold0_train_acc":0.2678425608361914,"fold0_tmp_test_acc":0.2678425608361914,"fold0_val_acc":0.2678425608361914,"best_epoch":191,"_runtime":54.029276877,"best_test_acc":0.45712885840274375,"best_val_acc":0.45598562796015024,"_step":256,"fold0_tmp_test_loss":NaN,"_timestamp":1.7459376478458562e+09,"fold0_train_loss":NaN}

@@ -1,0 +1,50 @@
+ 80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                              | 8/10 [48:20<12:05, 362.52s/it]
+Fold 0 | Epochs: 963 | Best epoch: 763
+Test acc: 0.7849
+Best val acc: 0.7878
+Fold 1 | Epochs: 909 | Best epoch: 709
+Test acc: 0.7947
+Best val acc: 0.7988
+Fold 2 | Epochs: 1059 | Best epoch: 859
+Test acc: 0.7710
+Best val acc: 0.7974
+Fold 3 | Epochs: 1078 | Best epoch: 878
+Test acc: 0.7849
+Best val acc: 0.7961
+Fold 4 | Epochs: 915 | Best epoch: 715
+Test acc: 0.8102
+Best val acc: 0.7792
+Fold 5 | Epochs: 1060 | Best epoch: 860
+Test acc: 0.7840
+Best val acc: 0.7924
+Fold 6 | Epochs: 868 | Best epoch: 668
+Test acc: 0.7729
+Best val acc: 0.7778
+Fold 7 | Epochs: 732 | Best epoch: 532
+Test acc: 0.8063
+Best val acc: 0.7831
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 201, in <module>
+    test_acc, best_val_acc, keep_running = run_exp(wandb.config, dataset, model_cls, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 101, in run_exp
+    train_loss, val_loss, tmp_test_loss] = test(model, data, fold)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/exp/run.py", line 62, in test
+    acc = roc_auc_score(data.y[mask[fold]].cpu().numpy(), pred.cpu().numpy()) #metric for minesweeper, questions and tolokers
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 216, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/metrics/_ranking.py", line 620, in roc_auc_score
+    y_score = check_array(y_score, ensure_2d=False)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1107, in check_array
+    _assert_all_finite(
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/validation.py", line 120, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/sklearn/utils/validation.py", line 169, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input contains NaN.

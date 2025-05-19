@@ -1,0 +1,16 @@
+{"time":"2025-04-29T07:23:10.693341343-03:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/alunos/Dados/andre/cooperative-sheaves/neural-sheaf-diffusion/cooperative_sheaves/wandb/run-20250429_072310-118ppk95/logs/debug-core.log"}
+{"time":"2025-04-29T07:23:10.946523169-03:00","level":"INFO","msg":"created new stream","id":"118ppk95"}
+{"time":"2025-04-29T07:23:10.946556589-03:00","level":"INFO","msg":"stream: started","id":"118ppk95"}
+{"time":"2025-04-29T07:23:10.946573064-03:00","level":"INFO","msg":"handler: started","stream_id":"118ppk95"}
+{"time":"2025-04-29T07:23:10.946599428-03:00","level":"INFO","msg":"sender: started","stream_id":"118ppk95"}
+{"time":"2025-04-29T07:23:10.946614235-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"118ppk95"}
+{"time":"2025-04-29T07:23:11.247987871-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-29T07:37:47.167589554-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-29T07:37:47.167619645-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-29T07:37:48.127684016-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.573781382,"progress":"477B/477B"},{"desc":"uploading config.yaml","runtime_seconds":0.38757281,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-04-29T07:37:48.498053435-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-29T07:37:48.754903891-03:00","level":"INFO","msg":"stream: closing","id":"118ppk95"}
+{"time":"2025-04-29T07:37:48.754912601-03:00","level":"INFO","msg":"handler: closed","stream_id":"118ppk95"}
+{"time":"2025-04-29T07:37:48.754916412-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"118ppk95"}
+{"time":"2025-04-29T07:37:48.75492335-03:00","level":"INFO","msg":"sender: closed","stream_id":"118ppk95"}
+{"time":"2025-04-29T07:37:48.754953258-03:00","level":"INFO","msg":"stream: closed","id":"118ppk95"}

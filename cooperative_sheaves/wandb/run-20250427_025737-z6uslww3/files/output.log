@@ -1,0 +1,52 @@
+
+  0%|                                                                                         | 0/10 [00:00<?, ?it/s]
+Data(x=[22662, 300], edge_index=[2, 32927], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 0 | Epochs: 282 | Best epoch: 82
+Test acc: 0.7400
+Best val acc: 0.7425
+
+
+ 20%|████████████████▏                                                                | 2/10 [00:22<01:28, 11.06s/it]
+Fold 1 | Epochs: 293 | Best epoch: 93
+Test acc: 0.7527
+Best val acc: 0.7483
+Data(x=[22662, 300], edge_index=[2, 32927], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 0])
+Fold 2 | Epochs: 276 | Best epoch: 76
+Test acc: 0.7478
+Best val acc: 0.7407
+
+ 30%|████████████████████████▎                                                        | 3/10 [00:32<01:15, 10.72s/it]
+Fold 3 | Epochs: 298 | Best epoch: 98
+Test acc: 0.7437
+Best val acc: 0.7416
+
+ 40%|████████████████████████████████▍                                                | 4/10 [00:43<01:05, 10.89s/it]
+Fold 4 | Epochs: 286 | Best epoch: 86
+Test acc: 0.7369
+Best val acc: 0.7481
+
+
+ 60%|████████████████████████████████████████████████▌                                | 6/10 [01:06<00:44, 11.12s/it]
+Fold 5 | Epochs: 311 | Best epoch: 111
+Test acc: 0.7570
+Best val acc: 0.7532
+
+ 70%|████████████████████████████████████████████████████████▋                        | 7/10 [01:16<00:33, 11.02s/it]
+Fold 6 | Epochs: 288 | Best epoch: 88
+Test acc: 0.7466
+Best val acc: 0.7465
+
+ 80%|████████████████████████████████████████████████████████████████▊                | 8/10 [01:27<00:22, 11.03s/it]
+Fold 7 | Epochs: 294 | Best epoch: 94
+Test acc: 0.7515
+Best val acc: 0.7444
+
+ 90%|████████████████████████████████████████████████████████████████████████▉        | 9/10 [01:38<00:10, 10.83s/it]
+Fold 8 | Epochs: 276 | Best epoch: 76
+Test acc: 0.7430
+Best val acc: 0.7393
+
+100%|████████████████████████████████████████████████████████████████████████████████| 10/10 [01:48<00:00, 10.87s/it]
+Fold 9 | Epochs: 275 | Best epoch: 75
+Test acc: 0.7360
+Best val acc: 0.7465

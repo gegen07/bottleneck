@@ -1,0 +1,52 @@
+  0%|                                                                                         | 0/10 [00:00<?, ?it/s]/home/alunos/Dados/.pyenv/versions/hsnn/lib/python3.11/site-packages/torch_geometric/utils/sparse.py:277: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at ../aten/src/ATen/SparseCsrTensorImpl.cpp:53.)
+  adj = torch.sparse_csr_tensor(
+Data(x=[22662, 300], edge_index=[2, 32927], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 4])
+ 10%|████████                                                                         | 1/10 [00:25<03:50, 25.60s/it]
+Fold 0 | Epochs: 461 | Best epoch: 261
+Test acc: 0.8803
+Best val acc: 0.8810
+
+ 20%|████████████████▏                                                                | 2/10 [00:48<03:10, 23.75s/it]
+Fold 1 | Epochs: 417 | Best epoch: 217
+Test acc: 0.8899
+Best val acc: 0.8858
+
+ 30%|████████████████████████▎                                                        | 3/10 [01:15<02:56, 25.25s/it]
+Fold 2 | Epochs: 500 | Best epoch: 300
+Test acc: 0.8895
+Best val acc: 0.8816
+
+ 40%|████████████████████████████████▍                                                | 4/10 [01:42<02:36, 26.13s/it]
+Fold 3 | Epochs: 508 | Best epoch: 308
+Test acc: 0.8802
+Best val acc: 0.8914
+Data(x=[22662, 300], edge_index=[2, 32927], y=[22662], train_mask=[10, 22662], val_mask=[10, 22662], test_mask=[10, 22662], random_walk_pe=[22662, 4])
+Fold 4 | Epochs: 468 | Best epoch: 268
+Test acc: 0.8840
+Best val acc: 0.8895
+
+
+ 60%|████████████████████████████████████████████████▌                                | 6/10 [02:33<01:42, 25.66s/it]
+Fold 5 | Epochs: 468 | Best epoch: 268
+Test acc: 0.8939
+Best val acc: 0.8895
+
+ 70%|████████████████████████████████████████████████████████▋                        | 7/10 [02:56<01:15, 25.05s/it]
+Fold 6 | Epochs: 440 | Best epoch: 240
+Test acc: 0.8833
+Best val acc: 0.8771
+
+ 80%|████████████████████████████████████████████████████████████████▊                | 8/10 [03:14<00:45, 22.81s/it]
+Fold 7 | Epochs: 333 | Best epoch: 133
+Test acc: 0.8754
+Best val acc: 0.8718
+
+ 90%|████████████████████████████████████████████████████████████████████████▉        | 9/10 [03:36<00:22, 22.39s/it]
+Fold 8 | Epochs: 397 | Best epoch: 197
+Test acc: 0.8645
+Best val acc: 0.8591
+
+100%|████████████████████████████████████████████████████████████████████████████████| 10/10 [04:08<00:00, 24.82s/it]
+Fold 9 | Epochs: 588 | Best epoch: 388
+Test acc: 0.8809
+Best val acc: 0.8854
