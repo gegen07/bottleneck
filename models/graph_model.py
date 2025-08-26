@@ -2,6 +2,8 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
+from torch_geometric.utils import remove_self_loops
+
 
 class GraphModel(torch.nn.Module):
     def __init__(self, args, gnn_type, num_layers, dim0, h_dim, out_dim, last_layer_fully_adjacent,
@@ -64,6 +66,17 @@ class GraphModel(torch.nn.Module):
 
             else:
                 edges = edge_index
+
+            #full_edges = torch.cat([edges, edges.flip(0)], dim=1).unique(dim=1)
+            #edges = full_edges
+            edges = remove_self_loops(edges)[0]
+
+            if 'Discrete' in layer.__class__.__name__:
+                layer.get_edge_dependend_stuff(edges, new_x)
+            # else:
+            #     layer.compute_maps_idx(edges)
+            #layer.to(new_x.device)
+
             new_x = layer(new_x, edges)
             if self.use_activation:
                 new_x = F.relu(new_x)

@@ -5,10 +5,10 @@ from experiment import Experiment
 import torch
 
 override_params = {
-    2: {'batch_size': 64, 'eval_every': 1000},
-    3: {'batch_size': 64},
-    4: {'batch_size': 1024},
-    5: {'batch_size': 1024},
+    2: {'batch_size': 1024, 'eval_every': 1000},
+    3: {'batch_size': 2048},
+    4: {'batch_size': 4096*2},
+    5: {'batch_size': 2048},
     6: {'batch_size': 1024},
     7: {'batch_size': 2048},
     8: {'batch_size': 1024, 'accum_grad': 2},  # effective batch size of 2048, with less GPU memory
@@ -25,7 +25,7 @@ class Results:
 if __name__ == '__main__':
 
     task = Task.NEIGHBORS_MATCH
-    gnn_type = GNN_TYPE.CSN
+    gnn_type = GNN_TYPE.FNSD
     stopping_criterion = STOP.TRAIN
     min_depth = 2
     max_depth = 8
@@ -39,7 +39,7 @@ if __name__ == '__main__':
         if depth in override_params:
             for key, value in AttrDict(override_params[depth]).items():
                 args[key] = value
-        # if args.depth in [3,4,5,6,7,8]:
+        # if args.depth in [2,3,4,6,7,8]:
         #     continue
         train_acc, test_acc, epoch = Experiment(args).run()
         torch.cuda.empty_cache()
