@@ -277,53 +277,19 @@ class DiscreteBundleSheafDiffusion(SheafDiffusion, MessagePassing):
         return edge_index, maps
 
 
-    def total_sheaf_effective_resistance(self, L_G, F_maps):
-        """
-        Calculate total sheaf effective resistance for a flat vector bundle sheaf.
-        
-        According to Theorem 4.6: R_F = d * R - ⟨M, L_G⁺⟩_F
-        
-        Args:
-            L_G: Graph Laplacian matrix (n x n, sparse or dense)
-            F_maps: List of orthogonal matrices [F_1, F_2, ..., F_n] for each node
-                    Each F_i should be a d x d orthogonal matrix
-        
-        Returns:
-            R_F: Total sheaf effective resistance
-            R: Total graph effective resistance
-            frobenius_term: Frobenius inner product term ⟨M, L_G⁺⟩_F
-        """
-        n = L_G.shape[0]
-        d = F_maps[0].shape[0]  # Stalk dimension
-        
-        # # Verify all F_maps have the same dimension and are orthogonal
-        # for i, F_i in enumerate(F_maps):
-        #     assert F_i.shape == (d, d), f"F_{i} has wrong shape: {F_i.shape}"
-        #     # Check orthogonality (approximately)
-        #     identity_approx = F_i.T @ F_i
-        #     if not np.allclose(identity_approx, np.eye(d), atol=1e-6):
-        #         print(f"Warning: F_{i} may not be orthogonal")
-        
-        # Compute pseudo-inverse of graph Laplacian
-        L_G_pinv = pinv(L_G.toarray()) if sp.issparse(L_G) else pinv(L_G)
-        
-        # Compute total graph effective resistance R = n * Tr(L_G⁺)
-        R = n * np.trace(L_G_pinv)
-        
-        # Compute vectors s_u = F_u @ 1_d for each node
+    def total_sheaf_effective_resistance(self, L_G_pinv, R, F_maps):
+        n = L_G_pinv.shape[0]
+        d = F_maps[0].shape[0] 
         ones_d = np.ones(d)
         s_vectors = [F_map.T @ ones_d for F_map in F_maps]
         
-        # Compute matrix M where M_uv = s_uᵀ s_v = 1_dᵀ F_uᵀ F_v 1_d
         M = np.zeros((n, n))
         for u in range(n):
             for v in range(n):
                 M[u, v] = s_vectors[u].T @ s_vectors[v]
         
-        # Compute Frobenius inner product ⟨M, L_G⁺⟩_F = Tr(M @ L_G⁺)
         frobenius_term = np.trace(M @ L_G_pinv)
         
-        # Compute total sheaf effective resistance
         R_F = d * R - frobenius_term
         
         return R_F, R, frobenius_term
@@ -339,13 +305,14 @@ class DiscreteBundleSheafDiffusion(SheafDiffusion, MessagePassing):
             g_maps = maps[offset:offset+num_nodes].detach().numpy()
             offset += num_nodes
 
-            L_G = to_dense_adj(g.laplacian[0], edge_attr=g.laplacian[1])[0].detach().numpy()
-            reff, _, _ = self.total_sheaf_effective_resistance(L_G, g_maps)
+            L_G_pinv = g.L_G_pinv
+            R = g.R
+            reff, _, _ = self.total_sheaf_effective_resistance(L_G_pinv, R, g_maps)
 
             results.append(reff)
 
         return np.sum(results)
-
+    
     def forward(self, x, edge_index, data, reff=False):
         torch.set_printoptions(linewidth=200)
         #x = x.to(torch.float64)
